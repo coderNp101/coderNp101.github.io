@@ -1,0 +1,1439 @@
+[
+    {
+      "description": "Highly Detailed Vedic Astrology Interpretation Knowledgebase based on classical texts (Brihat Parasara Hora Sastra, Phaladeepika, Jataka Parijata, How to Judge a Horoscope, Crux of Vedic Astrology). Provides expanded significations, keywords, attributes, principles, and calculation methods for elements found in Kundali API responses. Designed for detailed programmatic lookup and interpretation synthesis. Includes Muhurta principles and expanded sections on Bhavas, Yogas, Vargas, Ashtakavarga, Gochar, and Remedies.",
+      "interpretation_source": "Synthesized principles from Brihat Parasara Hora Sastra (BPHS), Phaladeepika (PD), Jataka Parijata (JP), How to Judge a Horoscope (HTJAH), Crux of Vedic Astrology (COVA). Accurate interpretation requires synthesis and consideration of the specific chart context (aspects, yogas, house lordships, Shadbala, Vargas, Avasthas, Gochar). Examples are illustrative.",
+      "lagna": {
+        "interpretation": "The Ascendant (Lagna/Udaya Lagna) is the pivot of the horoscope. It represents the self, physical body (Tanur Bhava), constitution, appearance, vitality, personality, innate nature (swabhava), intelligence (Dhi), overall fortune, fame, beginning of life, and the native's orientation towards the world and their approach to experiences. Its strength is paramount for overall well-being.",
+        "sign": {
+          "description": "Interpretation of the Ascendant Sign (Rasi). Describes core personality, physical characteristics, health tendencies, and general life approach. Modality (Movable/Fixed/Dual) and Element (Fire/Earth/Air/Water) dictate fundamental energy patterns.",
+          "lookup": {
+            "Aries": {
+              "Keywords": "Energetic, impulsive, courageous, independent, pioneering, assertive, competitive, impatient, headstrong, direct, active.",
+              "Modality": "Movable",
+              "Element": "Fire",
+              "Ruler": "Mars",
+              "Physical": "Middle stature, ruddy complexion, lean/muscular body, prominent brows, quick movements, potential for head injuries/marks, strong bones.",
+              "Temperament": "Bilious (Pitta)",
+              "Nature": "Male, Krura (Fierce), Quadruped, Prishtodaya (Rises with hind part), Strong at night.",
+              "Direction": "East",
+              "Abode": "Hills, Forests",
+              "Interpretation": "Represents initiative, leadership, courage, and a direct approach. Driven by action and challenge. Can be prone to haste, anger, and accidents. Needs physical activity. Rules head."
+            },
+            "Taurus": {
+              "Keywords": "Determined, practical, stable, patient, artistic, sensual, possessive, stubborn, reliable, comfort-loving, enduring.",
+              "Modality": "Fixed",
+              "Element": "Earth",
+              "Ruler": "Venus",
+              "Physical": "Short/medium sturdy build, attractive face, thick neck, broad shoulders, pleasant voice, sensual appearance, potential throat/neck issues, curly hair.",
+              "Temperament": "Windy (Vata)",
+              "Nature": "Female, Saumya (Gentle), Quadruped, Prishtodaya, Strong at night.",
+              "Direction": "South",
+              "Abode": "Fields, Farms, Cattle sheds",
+              "Interpretation": "Represents stability, perseverance, appreciation for beauty and comfort, practicality, material security. Can be resistant to change, materialistic, and possessive. Values sensual experiences. Rules face, throat."
+            },
+            "Gemini": {
+              "Keywords": "Intellectual, adaptable, communicative, curious, versatile, dualistic, restless, witty, skillful, nervous.",
+              "Modality": "Dual",
+              "Element": "Air",
+              "Ruler": "Mercury",
+              "Physical": "Tall, slender, quick movements, expressive hands/eyes, youthful appearance, long face/arms, potential nervous system/respiratory issues.",
+              "Temperament": "Mixed (Tridosha)",
+              "Nature": "Male, Krura, Biped, Sirshodaya (Rises with head), Strong at night.",
+              "Direction": "West",
+              "Abode": "Bedrooms, Pleasure gardens",
+              "Interpretation": "Represents intellect, communication, adaptability, and curiosity. Needs mental stimulation and variety. Can be scattered, inconsistent, or superficial. Skilled in arts and crafts. Rules arms, shoulders, upper chest."
+            },
+            "Cancer": {
+              "Keywords": "Sensitive, emotional, nurturing, protective, intuitive, imaginative, moody, tenacious, domestic, receptive.",
+              "Modality": "Movable",
+              "Element": "Water",
+              "Ruler": "Moon",
+              "Physical": "Medium/stout build, round face, pale complexion, expressive eyes, wide chest, potential digestive/emotional health issues.",
+              "Temperament": "Phlegmatic (Kapha)",
+              "Nature": "Female, Saumya, Centipede (Water dweller), Prishtodaya, Strong at night.",
+              "Direction": "North",
+              "Abode": "Watery places, Fields near water",
+              "Interpretation": "Represents emotion, nurturing, intuition, and connection to home/mother/past. Highly receptive and sensitive to environment. Can be overly emotional, clingy, or defensive. Strong attachment to family. Rules chest, heart, stomach."
+            },
+            "Leo": {
+              "Keywords": "Authoritative, noble, generous, ambitious, confident, dramatic, proud, loyal, creative, magnetic.",
+              "Modality": "Fixed",
+              "Element": "Fire",
+              "Ruler": "Sun",
+              "Physical": "Dignified bearing, broad shoulders, strong bones, large round head, prominent mane-like hair, potential heart/back issues.",
+              "Temperament": "Bilious (Pitta)",
+              "Nature": "Male, Krura, Quadruped, Sirshodaya, Strong at day.",
+              "Direction": "East",
+              "Abode": "Mountains, Forests, Caves",
+              "Interpretation": "Represents authority, self-expression, leadership, creativity, and generosity. Needs recognition and appreciation. Can be egoistic, dominating, or arrogant. Natural leader. Rules upper abdomen, heart, spine."
+            },
+            "Virgo": {
+              "Keywords": "Analytical, meticulous, practical, reserved, health-conscious, critical, service-oriented, discriminating, skillful, shy.",
+              "Modality": "Dual",
+              "Element": "Earth",
+              "Ruler": "Mercury",
+              "Physical": "Slender, youthful appearance, often looks younger than age, discriminating eyes, potential digestive/nervous issues.",
+              "Temperament": "Windy (Vata)",
+              "Nature": "Female, Saumya, Biped, Sirshodaya, Strong at day.",
+              "Direction": "South",
+              "Abode": "Grassy lands, Places with water and vegetation",
+              "Interpretation": "Represents analysis, service, attention to detail, and practicality. Needs order, efficiency, and purity. Can be overly critical, anxious, or perfectionistic. Health conscious. Rules lower abdomen, intestines, navel region."
+            },
+            "Libra": {
+              "Keywords": "Diplomatic, charming, idealistic, relationship-oriented, balanced, indecisive, artistic, just, sociable.",
+              "Modality": "Movable",
+              "Element": "Air",
+              "Ruler": "Venus",
+              "Physical": "Graceful, well-proportioned body, fair complexion, attractive features, potential kidney/lower back issues.",
+              "Temperament": "Mixed (Tridosha)",
+              "Nature": "Male, Krura, Biped, Sirshodaya, Strong at day.",
+              "Direction": "West",
+              "Abode": "Market places, Business centers",
+              "Interpretation": "Represents balance, harmony, relationships, and justice. Needs partnership, aesthetic beauty, and social interaction. Can be indecisive, people-pleasing, or superficial. Strong sense of fairness. Rules kidneys, lumbar region, space below navel."
+            },
+            "Scorpio": {
+              "Keywords": "Intense, secretive, resilient, magnetic, investigative, passionate, controlling, transformative, perceptive, possessive.",
+              "Modality": "Fixed",
+              "Element": "Water",
+              "Ruler": "Mars",
+              "Physical": "Medium build, strong features, penetrating eyes, magnetic presence, potential reproductive/elimination system issues.",
+              "Temperament": "Phlegmatic (Kapha)",
+              "Nature": "Female, Saumya, Centipede, Sirshodaya, Strong at day.",
+              "Direction": "North",
+              "Abode": "Holes, Caves, Underground places",
+              "Interpretation": "Represents intensity, transformation, hidden power, and investigation. Needs depth, control, and emotional connection. Can be secretive, jealous, vengeful, or obsessive. Possesses strong willpower and resilience. Rules reproductive organs, pelvis, anus."
+            },
+            "Sagittarius": {
+              "Keywords": "Optimistic, philosophical, independent, righteous, jovial, freedom-loving, blunt, expansive, knowledgeable, adventurous.",
+              "Modality": "Dual",
+              "Element": "Fire",
+              "Ruler": "Jupiter",
+              "Physical": "Tall, well-formed body, large forehead, cheerful expression, potential hip/thigh issues. First half biped, second half quadruped.",
+              "Temperament": "Bilious (Pitta)",
+              "Nature": "Male, Krura, Biped/Quadruped, Prishtodaya, Strong at night.",
+              "Direction": "East",
+              "Abode": "Stables, Military barracks",
+              "Interpretation": "Represents wisdom, higher learning, freedom, optimism, and righteousness. Needs exploration, purpose, and expansion. Can be blunt, irresponsible, or dogmatic. Loves travel and philosophy. Rules thighs, hips."
+            },
+            "Capricorn": {
+              "Keywords": "Disciplined, responsible, ambitious, cautious, practical, patient, reserved, organized, status-conscious, persistent.",
+              "Modality": "Movable",
+              "Element": "Earth",
+              "Ruler": "Saturn",
+              "Physical": "Lean, bony structure, prominent features, serious demeanor, potential knee/skin/bone issues. First half quadruped, second half watery/footless.",
+              "Temperament": "Windy (Vata)",
+              "Nature": "Female, Saumya, Quadruped/Watery, Prishtodaya, Strong at night.",
+              "Direction": "South",
+              "Abode": "Rivers, Forests, Watery forests",
+              "Interpretation": "Represents structure, discipline, ambition, and responsibility. Needs achievement, order, and recognition. Can be pessimistic, rigid, overly conventional, or melancholic. Strong sense of duty. Rules knees, skin, bones."
+            },
+            "Aquarius": {
+              "Keywords": "Humanitarian, unconventional, intellectual, detached, friendly, progressive, eccentric, scientific, group-oriented, inventive.",
+              "Modality": "Fixed",
+              "Element": "Air",
+              "Ruler": "Saturn",
+              "Physical": "Tall, well-built or stout, often unusual features, thoughtful expression, potential circulation/ankle issues.",
+              "Temperament": "Mixed (Tridosha)",
+              "Nature": "Male, Krura, Biped, Sirshodaya, Strong at day.",
+              "Direction": "West",
+              "Abode": "Potter's place, Places with water",
+              "Interpretation": "Represents innovation, humanitarianism, group consciousness, and detachment. Needs freedom, intellectual connection, and social reform. Can be emotionally detached, rebellious, or eccentric. Forward-thinking. Rules ankles, calves, circulation."
+            },
+            "Pisces": {
+              "Keywords": "Compassionate, intuitive, adaptable, imaginative, spiritual, escapist, sensitive, self-sacrificing, universal, dreamy.",
+              "Modality": "Dual",
+              "Element": "Water",
+              "Ruler": "Jupiter",
+              "Physical": "Stout/plump build, soft features, large dreamy eyes, small hands/feet, potential feet/lymphatic system issues.",
+              "Temperament": "Phlegmatic (Kapha)",
+              "Nature": "Female, Saumya, Footless (Fish), Ubhayodaya (Rises both ways), Strong at day.",
+              "Direction": "North",
+              "Abode": "Rivers, Seas, Temples, Holy places",
+              "Interpretation": "Represents intuition, compassion, spirituality, and imagination. Highly sensitive and adaptable. Can be escapist, confused, easily influenced, or overly idealistic. Deep connection to the unseen. Rules feet, lymphatic system."
+            }
+          }
+        },
+        "nakshatra": {
+          "description": "Interpretation of the Ascendant Nakshatra (Lunar Mansion). Adds specific motivations, core energies, deities, symbols, ruling planets (Vimshottari lord), and destiny patterns, significantly modifying the Rasi interpretation.",
+          "lookup": {
+            "Ashwini": {
+              "Keywords": "Swift action, energetic, pioneering, healing impulse, initiating, impulsive, youthful, quick, resourceful.",
+              "Deity": "Ashwini Kumaras (Healers)",
+              "Symbol": "Horse's Head",
+              "Lord": "Ketu",
+              "Guna": "Sattvic",
+              "Gana": "Deva",
+              "Temperament": "Light, Swift (Laghu, Kshipra)",
+              "Interpretation": "Indicates a quick, energetic start in life, interest in healing or speed, pioneering spirit, desire for movement, but potentially impulsive or restless. Good for starting things."
+            },
+            "Bharani": {
+              "Keywords": "Bearing, restraining, transformative power, creative/procreative energy, dealing with extremes (life/death), disciplined, possessive.",
+              "Deity": "Yama (Death/Discipline)",
+              "Symbol": "Yoni (Female Organ)",
+              "Lord": "Venus",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fierce, Cruel (Ugra, Krura)",
+              "Interpretation": "Indicates capacity to bear burdens, transformative experiences, connection to cycles of life/death, potential for creative or sexual focus, struggles, discipline. Needs careful handling."
+            },
+            "Krittika": {
+              "Keywords": "Sharp intellect, cutting away negativity, purifying fire, ambitious, commanding presence, critical faculty, nurturing (like foster mother), decisive.",
+              "Deity": "Agni (Fire God)",
+              "Symbol": "Knife/Razor/Axe",
+              "Lord": "Sun",
+              "Guna": "Rajasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Mixed, Sharp-Soft (Mishra, Tikshna-Mridu)",
+              "Interpretation": "Indicates ambition, leadership potential, sharp mind, need for purification, foster-parent role, but can be critical, foster conflicts, or have excessive appetite."
+            },
+            "Rohini": {
+              "Keywords": "Growth, fertility, charm, allure, materialistic comfort, stability, artistic talent, seductive power, beauty.",
+              "Deity": "Brahma/Prajapati (Creator)",
+              "Symbol": "Cart/Chariot/Temple/Banyan Tree",
+              "Lord": "Moon",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fixed, Stable (Dhruva, Sthira)",
+              "Interpretation": "Indicates charm, stability, focus on growth and material comforts, artistic ability, connection to nature, but potential for jealousy, possessiveness, or indulgence."
+            },
+            "Mrigashirsha": {
+              "Keywords": "Searching, seeking, curiosity, gentle nature, sensitivity, restlessness, versatility, fickle mind, timid.",
+              "Deity": "Soma (Moon God)",
+              "Symbol": "Deer's Head",
+              "Lord": "Mars",
+              "Guna": "Tamasic",
+              "Gana": "Deva",
+              "Temperament": "Soft, Tender (Mridu, Maitra)",
+              "Interpretation": "Indicates a curious, sensitive, searching nature. Versatile and gentle but can be restless, indecisive, suspicious, or overly sensitive. Needs grounding."
+            },
+            "Ardra": {
+              "Keywords": "Intense emotion, destruction for renewal, storms, effort, overcoming hardship, analytical power, transformation, teardrops.",
+              "Deity": "Rudra (Storm God)",
+              "Symbol": "Teardrop/Diamond/Human Head",
+              "Lord": "Rahu",
+              "Guna": "Tamasic",
+              "Gana": "Manushya",
+              "Temperament": "Sharp, Dreadful (Tikshna, Daruna)",
+              "Interpretation": "Indicates intensity, potential for upheaval leading to transformation, intellectual power, overcoming difficulties through effort. Can bring sorrow or suffering before clarity."
+            },
+            "Punarvasu": {
+              "Keywords": "Renewal, return, repetition, nurturing care, philosophical outlook, good-natured, simplicity, recovery, resources.",
+              "Deity": "Aditi (Mother of Gods)",
+              "Symbol": "Bow and Quiver",
+              "Lord": "Jupiter",
+              "Guna": "Sattvic",
+              "Gana": "Deva",
+              "Temperament": "Movable, Changeable (Chara, Chala)",
+              "Interpretation": "Indicates ability to recover, return to origins, nurturing quality, philosophical bent, good fortune, focus on resources and shelter. Can repeat patterns."
+            },
+            "Pushya": {
+              "Keywords": "Nourishing, auspicious, wisdom, caring, patient, orthodox belief, spiritual growth, prosperity, supportive.",
+              "Deity": "Brihaspati (Guru of Gods)",
+              "Symbol": "Cow's Udder/Flower/Arrow/Circle",
+              "Lord": "Saturn",
+              "Guna": "Tamasic",
+              "Gana": "Deva",
+              "Temperament": "Light, Swift (Laghu, Kshipra)",
+              "Interpretation": "Highly auspicious, indicates wisdom, nurturing ability, patience, prosperity, strong connection to tradition and spirituality. Considered the best Nakshatra."
+            },
+            "Ashlesha": {
+              "Keywords": "Clinging, entwining, hypnotic gaze, penetrating insight, secretive nature, mystical power, psychological depth, potential deception, poison.",
+              "Deity": "Nagas/Sarpas (Serpents)",
+              "Symbol": "Coiled Serpent",
+              "Lord": "Mercury",
+              "Guna": "Sattvic",
+              "Gana": "Rakshasa",
+              "Temperament": "Sharp, Dreadful (Tikshna, Daruna)",
+              "Interpretation": "Indicates deep insight, psychological power, strategic thinking, potential for manipulation or secrecy, interest in occult, hidden motives. Can be poisonous or healing."
+            },
+            "Magha": {
+              "Keywords": "Regal bearing, authority, ancestral pride, ambition, tradition, nobility, seeking recognition, past life connection, throne.",
+              "Deity": "Pitris (Ancestors)",
+              "Symbol": "Throne Room/Palanquin",
+              "Lord": "Ketu",
+              "Guna": "Tamasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Fierce, Cruel (Ugra, Krura)",
+              "Interpretation": "Indicates leadership, connection to lineage and tradition, ambition for status, seeking respect and authority. Strong link to past and ancestors."
+            },
+            "Purva Phalguni": {
+              "Keywords": "Relaxation, enjoyment, pleasure seeking, charisma, artistic talent, sociability, relationships, potential vanity, fortune.",
+              "Deity": "Bhaga (God of Fortune/Bliss)",
+              "Symbol": "Front legs of Bed/Hammock/Fireplace",
+              "Lord": "Venus",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fierce, Cruel (Ugra, Krura)",
+              "Interpretation": "Indicates focus on enjoyment, relationships, arts, charisma, sociability, potential for laziness, indulgence, or vanity. Seeks pleasure and comfort."
+            },
+            "Uttara Phalguni": {
+              "Keywords": "Patronage, kindness, friendship, stable relationships, helpfulness, charity, responsibility, commitment, agreements.",
+              "Deity": "Aryaman (God of Patronage/Contracts)",
+              "Symbol": "Back legs of Bed/Hammock",
+              "Lord": "Sun",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fixed, Stable (Dhruva, Sthira)",
+              "Interpretation": "Indicates helpfulness, stable relationships, commitment, leadership through kindness, focus on agreements, charity, and social bonds."
+            },
+            "Hasta": {
+              "Keywords": "Skilled hands, craftsmanship, cleverness, humor, punctuality, resourcefulness, healing touch, potential trickery, manifestation.",
+              "Deity": "Savitar (Inspiring Sun God)",
+              "Symbol": "Hand/Fist",
+              "Lord": "Moon",
+              "Guna": "Rajasic",
+              "Gana": "Deva",
+              "Temperament": "Light, Swift (Laghu, Kshipra)",
+              "Interpretation": "Indicates skill, dexterity, cleverness, ability to manifest goals, resourcefulness, healing potential, but also potential for cunning, anxiety, or theft."
+            },
+            "Chitra": {
+              "Keywords": "Brilliant appearance, artistic skill, architectural talent, creating illusion, charisma, dynamic energy, focus on structure/beauty, craftsmanship.",
+              "Deity": "Vishwakarma/Tvashtar (Celestial Architect)",
+              "Symbol": "Bright Jewel/Pearl",
+              "Lord": "Mars",
+              "Guna": "Tamasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Soft, Tender (Mridu, Maitra)",
+              "Interpretation": "Indicates creativity, charisma, focus on aesthetics and structure, dynamic energy, skill in creation, potential for illusion or superficiality."
+            },
+            "Swati": {
+              "Keywords": "Independence, self-reliance, diplomacy, business acumen, restlessness, flexibility, learning, justice, wind.",
+              "Deity": "Vayu (Wind God)",
+              "Symbol": "Young Shoot swaying in Wind/Coral/Sword",
+              "Lord": "Rahu",
+              "Guna": "Tamasic",
+              "Gana": "Deva",
+              "Temperament": "Movable, Changeable (Chara, Chala)",
+              "Interpretation": "Indicates independence, adaptability, skill in negotiation and business, need for freedom, focus on learning, justice, and movement. Can be unsettled."
+            },
+            "Vishakha": {
+              "Keywords": "Purposefulness, determination, ambition, goal-orientation, celebratory nature, intensity, potential jealousy/rivalry, triumph.",
+              "Deity": "Indra (Chief God) & Agni (Fire God)",
+              "Symbol": "Triumphal Arch/Potter's Wheel/Leaf-decorated Arch",
+              "Lord": "Jupiter",
+              "Guna": "Sattvic",
+              "Gana": "Rakshasa",
+              "Temperament": "Mixed, Sharp-Soft (Mishra, Tikshna-Mridu)",
+              "Interpretation": "Indicates strong focus on goals, ambition, determination, leadership potential, intensity, but potential for envy, rivalry, or divided focus. Needs clear objectives."
+            },
+            "Anuradha": {
+              "Keywords": "Devotion, friendship, cooperation, success through collaboration, exploring new horizons, loyalty, organization, love.",
+              "Deity": "Mitra (God of Friendship)",
+              "Symbol": "Lotus Flower/Triumphal Archway/Staff",
+              "Lord": "Saturn",
+              "Guna": "Tamasic",
+              "Gana": "Deva",
+              "Temperament": "Soft, Tender (Mridu, Maitra)",
+              "Interpretation": "Indicates success through cooperation, strong friendships, devotion, organizational ability, interest in exploring, loyalty. Good for group activities."
+            },
+            "Jyeshtha": {
+              "Keywords": "Eldest, senior status, protectiveness, authority, occult knowledge, responsibility, facing adversity, potential arrogance, rivalry.",
+              "Deity": "Indra (Chief God)",
+              "Symbol": "Circular Amulet/Earring/Umbrella",
+              "Lord": "Mercury",
+              "Guna": "Sattvic",
+              "Gana": "Rakshasa",
+              "Temperament": "Sharp, Dreadful (Tikshna, Daruna)",
+              "Interpretation": "Indicates seniority, responsibility, protectiveness, occult interest, achieving status through effort, potential for pride, hardship, or rivalry. Needs humility."
+            },
+            "Mula": {
+              "Keywords": "Rooted, foundational, investigative, direct approach, destruction (of illusions/old structures), non-conformist, deep inquiry, constraints.",
+              "Deity": "Nirriti (Goddess of Destruction/Dissolution)",
+              "Symbol": "Tied Bundle of Roots/Elephant Goad/Lion's Tail",
+              "Lord": "Ketu",
+              "Guna": "Tamasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Sharp, Dreadful (Tikshna, Daruna)",
+              "Interpretation": "Indicates getting to the root of things, investigation, directness, potential for destruction or loss before new growth, interest in origins. Can bring painful truths."
+            },
+            "Purva Ashadha": {
+              "Keywords": "Invincible, victorious, popular, ambitious, philosophical bent, patience, declarations, inspiration, wealth.",
+              "Deity": "Apas (Water Goddesses)",
+              "Symbol": "Elephant Tusk/Fan/Winnowing Basket",
+              "Lord": "Venus",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fierce, Cruel (Ugra, Krura)",
+              "Interpretation": "Indicates ambition, popularity, philosophical nature, ability to inspire, patience leading to victory, focus on declarations and purification. Early invincibility."
+            },
+            "Uttara Ashadha": {
+              "Keywords": "Universal consciousness, enduring success, responsible leadership, virtuous conduct, patience, commitment, structure, integrity.",
+              "Deity": "Vishvadevas (Universal Gods)",
+              "Symbol": "Elephant Tusk/Planks of Bed",
+              "Lord": "Sun",
+              "Guna": "Rajasic",
+              "Gana": "Manushya",
+              "Temperament": "Fixed, Stable (Dhruva, Sthira)",
+              "Interpretation": "Indicates lasting achievements, integrity, leadership, responsibility, commitment to duty, universal principles. Later victory."
+            },
+            "Shravana": {
+              "Keywords": "Listening, learning, acquiring knowledge, tradition, travel, connecting people/ideas, fame, organization, hearing.",
+              "Deity": "Vishnu (Preserver God)/Saraswati",
+              "Symbol": "Ear/Three Footprints/Trident",
+              "Lord": "Moon",
+              "Guna": "Rajasic",
+              "Gana": "Deva",
+              "Temperament": "Movable, Changeable (Chara, Chala)",
+              "Interpretation": "Indicates ability to learn and listen, connection to tradition and knowledge, travel, good reputation, organizational skills. Focus on communication."
+            },
+            "Dhanishta": {
+              "Keywords": "Wealth, rhythm, music, fame, adaptability, charitable nature, confidence, group coordination, symphony.",
+              "Deity": "Vasus (8 Gods of Abundance)",
+              "Symbol": "Drum (Mridanga)/Flute",
+              "Lord": "Mars",
+              "Guna": "Tamasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Movable, Changeable (Chara, Chala)",
+              "Interpretation": "Indicates wealth, musical talent, fame, confidence, ability to coordinate groups, adaptability, marital challenges possible. Connects individual to group."
+            },
+            "Shatabhisha": {
+              "Keywords": "Healing (100 physicians), secretive nature, philosophical insight, reclusive tendencies, technological affinity, veiling/unveiling, networks.",
+              "Deity": "Varuna (God of Cosmic Waters/Sky/Medicines)",
+              "Symbol": "Empty Circle/100 Flowers or Stars/Thousand Petalled Lotus",
+              "Lord": "Rahu",
+              "Guna": "Tamasic",
+              "Gana": "Rakshasa",
+              "Temperament": "Movable, Changeable (Chara, Chala)",
+              "Interpretation": "Indicates healing abilities, need for solitude, philosophical depth, interest in mysteries/technology, potential for secrecy or breakthroughs. Can veil or reveal."
+            },
+            "Purva Bhadrapada": {
+              "Keywords": "Fiery intensity, passionate, occult interest, transformative power, critical speech, duality, penance, purification.",
+              "Deity": "Aja Ekapada (One-footed Goat/Fire Serpent)",
+              "Symbol": "Front legs of Funeral Cot/Man with Two Faces/Sword",
+              "Lord": "Jupiter",
+              "Guna": "Sattvic",
+              "Gana": "Manushya",
+              "Temperament": "Fierce, Cruel (Ugra, Krura)",
+              "Interpretation": "Indicates intensity, passion, potential for transformation through difficult experiences, interest in occult, sharp intellect/speech. Can bring suffering for purification."
+            },
+            "Uttara Bhadrapada": {
+              "Keywords": "Wisdom, discipline, controlled energy, benevolent nature, stability, spiritual depth, inheritance, good fortune, protection.",
+              "Deity": "Ahir Budhnya (Serpent of the Deep)",
+              "Symbol": "Back legs of Funeral Cot/Serpent in Water/Twins",
+              "Lord": "Saturn",
+              "Guna": "Tamasic",
+              "Gana": "Manushya",
+              "Temperament": "Fixed, Stable (Dhruva, Sthira)",
+              "Interpretation": "Indicates wisdom, self-control, stability, spiritual depth, good fortune, ability to manage responsibilities patiently. Connection to deep knowledge."
+            },
+            "Revati": {
+              "Keywords": "Wealth, nourishment, protection, guidance (especially for travelers), compassion, finality, completion, fertility.",
+              "Deity": "Pushan (Nourisher/Protector God)",
+              "Symbol": "Fish/Drum (used for marking time)",
+              "Lord": "Mercury",
+              "Guna": "Sattvic",
+              "Gana": "Deva",
+              "Temperament": "Soft, Tender (Mridu, Maitra)",
+              "Interpretation": "Indicates abundance, protection, guidance, compassion, interest in travel, focus on completion and providing for others. Good for endings and beginnings."
+            }
+          }
+        },
+        "pada": {
+          "description": "Interpretation of the Nakshatra Pada (Quarter - 3°20'). Links Nakshatra energy to Navamsa signs and life aims (Purusharthas - Dharma, Artha, Kama, Moksha). Each Pada corresponds to a Navamsa sign.",
+          "lookup": {
+            "1": "Dharma Pada: Focuses on purpose, principles, initiative, inherent nature, soul's path. Navamsa influenced by Fire signs (Aries/Leo/Sagittarius).",
+            "2": "Artha Pada: Focuses on resources, stability, material application, sustenance, wealth accumulation. Navamsa influenced by Earth signs (Taurus/Virgo/Capricorn).",
+            "3": "Kama Pada: Focuses on desires, relationships, creativity, intellect, fulfillment, enjoyment. Navamsa influenced by Air signs (Gemini/Libra/Aquarius).",
+            "4": "Moksha Pada: Focuses on liberation, intuition, spirituality, letting go, subconscious patterns, final release. Navamsa influenced by Water signs (Cancer/Scorpio/Pisces)."
+          }
+        }
+      },
+      "navamsa_lagna": {
+        "interpretation": "The Navamsa Ascendant (D9 Lagna) reveals the inner self, true potential, dharma (purpose), fortune (especially after marriage), the nature and strength of the spouse, and the underlying strength/quality of the Rasi chart placements. It's crucial for assessing long-term prospects, the soul's direction, skills, and inherent nature. A strong Navamsa Lagna/Lord enhances the entire chart.",
+        "sign": {
+          "description": "Interpretation of the Navamsa Ascendant Sign. Indicates the core inner nature, approach to dharma and relationships, and potential skills. Vargottama Lagna (same sign in Rasi D1 and Navamsa D9) strengthens the Lagna significantly.",
+          "lookup": "Refer to 'lagna.sign.lookup' for general sign interpretations, applied here to the inner self/dharma/spouse/skills."
+        }
+      },
+      "panchanga": {
+        "interpretation": "Panchanga (Five Limbs - Tithi, Vara, Nakshatra, Yoga, Karana) details provide insights into the subtle lunar and solar energies at birth, influencing personality nuances, emotional patterns, health, timing, compatibility, and overall life quality.",
+        "tithi": {
+          "description": "Lunar Day (1-15 of Shukla/Waxing or Krishna/Waning Paksha). Relates to emotional state, relationship potential, auspiciousness, ruling deity, and physical/mental constitution.",
+          "lookup": {
+            "Pratipada (1)": {
+              "Keywords": "Growth, beginning, creation, potential instability, building.",
+              "Deity": "Brahma/Agni",
+              "Nature": "Nanda (Auspicious)",
+              "Interpretation": "Good for beginnings, construction, religious ceremonies. Native may be creative but potentially unsteady."
+            },
+            "Dwitiya (2)": {
+              "Keywords": "Foundation, partnership, marriage, construction, stability.",
+              "Deity": "Brahma/Vidhatr",
+              "Nature": "Bhadra (Auspicious)",
+              "Interpretation": "Good for laying foundations, marriage, government work. Native seeks stability and partnership."
+            },
+            "Tritiya (3)": {
+              "Keywords": "Effort, strength, siblings, courage, cutting, first feeding.",
+              "Deity": "Gauri/Vishnu",
+              "Nature": "Jaya (Auspicious)",
+              "Interpretation": "Good for activities requiring strength, cutting hair/nails, learning music. Native is effortful and courageous."
+            },
+            "Chaturthi (4)": {
+              "Keywords": "Obstacles, stability, home, removal of enemies, confinement.",
+              "Deity": "Ganesha/Yama",
+              "Nature": "Rikta (Empty/Inauspicious for good beginnings)",
+              "Interpretation": "Good for overcoming obstacles, destruction of enemies, cleaning. Native may face obstacles but can overcome them. Avoid starting auspicious work."
+            },
+            "Panchami (5)": {
+              "Keywords": "Knowledge, skill, creativity, health, purification, auspicious.",
+              "Deity": "Nagas (Serpents)/Chandra",
+              "Nature": "Poorna (Auspicious)",
+              "Interpretation": "Good for medicine, removing poison, surgery, auspicious activities. Native is skillful and knowledgeable."
+            },
+            "Shashthi (6)": {
+              "Keywords": "Conflict, effort, skill, children, fame, luxury, construction.",
+              "Deity": "Kartikeya/Agni",
+              "Nature": "Nanda (Auspicious)",
+              "Interpretation": "Good for making friends, festivities, ornamentation. Native is skillful, potentially conflict-prone, seeks fame."
+            },
+            "Saptami (7)": {
+              "Keywords": "Travel, vehicles, cooperation, friendship, marriage, music.",
+              "Deity": "Surya (Sun)/Indra",
+              "Nature": "Bhadra (Auspicious)",
+              "Interpretation": "Good for travel, marriage, music, acquiring vehicles. Native is cooperative and mobile."
+            },
+            "Ashtami (8)": {
+              "Keywords": "Conflict, challenges, endurance, dance, arguments, weapons.",
+              "Deity": "Rudras/Matrikas/Shiva",
+              "Nature": "Jaya (Auspicious)",
+              "Interpretation": "Good for dance, debates, learning weaponry, construction. Native faces challenges but endures."
+            },
+            "Navami (9)": {
+              "Keywords": "Strife, energy, ambition, destruction of enemies, hunting.",
+              "Deity": "Durga/Ambika/Nagas",
+              "Nature": "Rikta (Empty/Inauspicious for good beginnings)",
+              "Interpretation": "Good for killing enemies, destructive acts, competition. Native is energetic, ambitious, potentially harsh. Avoid starting auspicious work."
+            },
+            "Dashami (10)": {
+              "Keywords": "Virtue, merit, success, good deeds, religious functions, auspicious.",
+              "Deity": "Yama/Dharmaraja",
+              "Nature": "Poorna (Auspicious)",
+              "Interpretation": "Good for virtuous deeds, religious functions, government work, marriage. Native is meritorious and successful."
+            },
+            "Ekadashi (11)": {
+              "Keywords": "Fasting, spirituality, devotion, auspicious, learning, marriage.",
+              "Deity": "Vishvadevas/Rudra",
+              "Nature": "Nanda (Auspicious)",
+              "Interpretation": "Good for fasting, religious rites, worship, festivals. Native is spiritual and devoted."
+            },
+            "Dwadashi (12)": {
+              "Keywords": "Merit, travel, religious rites, auspicious, feeding.",
+              "Deity": "Vishnu/Aditya",
+              "Nature": "Bhadra (Auspicious)",
+              "Interpretation": "Good for religious rites, lighting sacred fire, fulfilling promises. Native performs meritorious deeds."
+            },
+            "Trayodashi (13)": {
+              "Keywords": "Victory, pleasure, festivals, auspicious, friendship.",
+              "Deity": "Kamadeva/Madana",
+              "Nature": "Jaya (Auspicious)",
+              "Interpretation": "Good for festivals, sensual pleasure, making friends, wearing new clothes. Native seeks pleasure and victory."
+            },
+            "Chaturdashi (14)": {
+              "Keywords": "Fierce activities, challenges, poison, weapons, strength.",
+              "Deity": "Shiva/Kali",
+              "Nature": "Rikta (Empty/Inauspicious for good beginnings)",
+              "Interpretation": "Good for administering poison, calling spirits, fierce deeds. Native faces challenges. Avoid auspicious work, travel, shaving."
+            },
+            "Purnima (15 - Full Moon)": {
+              "Keywords": "Fullness, completion, auspicious, nourishment, religious rites, festivals.",
+              "Deity": "Chandra (Moon)/Pitris",
+              "Nature": "Poorna (Auspicious)",
+              "Interpretation": "Good for auspicious and religious activities, sacrifices, festivities. Native feels complete, nourished."
+            },
+            "Amavasya (30 - New Moon)": {
+              "Keywords": "New beginnings (after end), ancestors, constraints, introspection, charity, rest.",
+              "Deity": "Pitris (Ancestors)/Shiva",
+              "Nature": "Poorna (Generally inauspicious for material beginnings, good for spiritual acts)",
+              "Interpretation": "Good for ancestral rites (Shraddha), charity, introspection. Native connects with ancestors, may feel constrained. Avoid material activities."
+            }
+          }
+        },
+        "vara": {
+          "description": "Weekday (Sunday to Saturday). Influences vitality, temperament, and activities favored on that day. Each day has a ruling planet.",
+          "lookup": {
+            "Sunday": {
+              "Ruler": "Sun",
+              "Keywords": "Vitality, authority, leadership, government, soul, father, health.",
+              "Interpretation": "Native may be authoritative, have leadership qualities, good vitality if Sun is strong. Day good for government work, meeting superiors, dealing with father."
+            },
+            "Monday": {
+              "Ruler": "Moon",
+              "Keywords": "Emotions, mind, public, mother, nurturing, changeability, fluids.",
+              "Interpretation": "Native may be emotional, receptive, connected to public/mother if Moon is strong. Day good for dealing with public, liquids, home matters, nurturing activities."
+            },
+            "Tuesday": {
+              "Ruler": "Mars",
+              "Keywords": "Energy, action, courage, conflict, siblings, property, logic.",
+              "Interpretation": "Native may be energetic, courageous, logical, potentially conflict-prone if Mars is strong. Day good for physical activity, competition, dealing with property, assertive action."
+            },
+            "Wednesday": {
+              "Ruler": "Mercury",
+              "Keywords": "Intellect, communication, learning, commerce, skills, analysis, adaptability.",
+              "Interpretation": "Native may be intellectual, communicative, skillful, adaptable if Mercury is strong. Day good for learning, business, communication, writing, calculations."
+            },
+            "Thursday": {
+              "Ruler": "Jupiter",
+              "Keywords": "Wisdom, knowledge, expansion, fortune, children, teachers, religion.",
+              "Interpretation": "Native may be wise, knowledgeable, fortunate, philosophical if Jupiter is strong. Day good for learning, teaching, religious activities, financial matters, seeking advice."
+            },
+            "Friday": {
+              "Ruler": "Venus",
+              "Keywords": "Love, beauty, relationships, comforts, arts, vehicles, pleasure.",
+              "Interpretation": "Native may be artistic, charming, relationship-oriented, pleasure-seeking if Venus is strong. Day good for arts, music, relationships, enjoyment, buying luxuries."
+            },
+            "Saturday": {
+              "Ruler": "Saturn",
+              "Keywords": "Structure, discipline, limitation, duty, responsibility, service, endurance.",
+              "Interpretation": "Native may be disciplined, responsible, patient, potentially melancholic if Saturn is strong. Day good for structured work, dealing with elders/servants, long-term planning, service."
+            }
+          }
+        },
+        "nakshatra": {
+          "description": "Lunar Mansion (Constellation) occupied by the Moon at birth. Significantly influences mental disposition, core personality traits, subconscious patterns, and life events. See 'lagna.nakshatra.lookup' for detailed interpretations of each Nakshatra's qualities.",
+          "lookup": "Refer to 'lagna.nakshatra.lookup' for detailed Nakshatra interpretations, applied here to the Moon's influence on mind and personality."
+        },
+        "yoga": {
+          "description": "Nithya Yoga (27 Yogas based on combined Sun-Moon longitude). Indicates inherent qualities, health, fortune, relationship dynamics, and specific life patterns.",
+          "lookup": {
+            "Vishkambha": {
+              "Interpretation": "Obstacles overcome, victorious, wealthy, skilled, potentially proud.",
+              "Nature": "Malefic (first 3 ghatis inauspicious)"
+            },
+            "Priti": {
+              "Interpretation": "Well-liked, attractive, enjoys pleasures, eloquent, fond of opposite sex.",
+              "Nature": "Benefic"
+            },
+            "Ayushman": {
+              "Interpretation": "Long-lived, healthy, energetic, fond of poetry/music, wealthy.",
+              "Nature": "Benefic"
+            },
+            "Saubhagya": {
+              "Interpretation": "Good fortune, comfortable life, well-liked, sensual, wealthy.",
+              "Nature": "Benefic"
+            },
+            "Shobhana": {
+              "Interpretation": "Lustrous, beautiful, sensual, virtuous, intelligent.",
+              "Nature": "Benefic"
+            },
+            "Atiganda": {
+              "Interpretation": "Difficult life, obstacles, danger, flawed character (can be overcome), accident-prone, potentially quarrelsome.",
+              "Nature": "Malefic (first 6 ghatis highly inauspicious)"
+            },
+            "Sukarman": {
+              "Interpretation": "Virtuous deeds, skillful, magnanimous, performs noble acts, wealthy.",
+              "Nature": "Benefic"
+            },
+            "Dhriti": {
+              "Interpretation": "Patience, determination, enjoys others' wealth/spouse, healthy, knowledgeable.",
+              "Nature": "Benefic"
+            },
+            "Shula": {
+              "Interpretation": "Sharp, argumentative, pain, sorrow, anger, colic pains.",
+              "Nature": "Malefic"
+            },
+            "Ganda": {
+              "Interpretation": "Flawed morals/health, danger (can be overcome), short-tempered.",
+              "Nature": "Malefic (first 6 ghatis highly inauspicious)"
+            },
+            "Vriddhi": {
+              "Interpretation": "Growth, increase, intelligence, opportunistic, wise speech.",
+              "Nature": "Benefic"
+            },
+            "Dhruva": {
+              "Interpretation": "Fixed, stable, patient, wealthy, persistent, builds houses.",
+              "Nature": "Benefic"
+            },
+            "Vyaghata": {
+              "Interpretation": "Cruel, harmful, dangerous, fierce, skilled in work.",
+              "Nature": "Malefic (first 9 ghatis inauspicious)"
+            },
+            "Harshana": {
+              "Interpretation": "Joyful, cheerful, intelligent, famous, scholarly.",
+              "Nature": "Benefic"
+            },
+            "Vajra": {
+              "Interpretation": "Strong, powerful, wealthy, unpredictable, skilled, potent.",
+              "Nature": "Malefic (first 3 ghatis inauspicious)"
+            },
+            "Siddhi": {
+              "Interpretation": "Accomplished, skillful, successful, protective, intelligent.",
+              "Nature": "Benefic"
+            },
+            "Vyatipata": {
+              "Interpretation": "Calamity, unusual events, instability, suffering (highly inauspicious for any work).",
+              "Nature": "Highly Malefic"
+            },
+            "Variyana": {
+              "Interpretation": "Comforts, pleasures, wealth, lazy, lustful, strong.",
+              "Nature": "Benefic"
+            },
+            "Parigha": {
+              "Interpretation": "Obstacles, hindrance, inimical, skilled in weaponry, knowledgeable.",
+              "Nature": "Malefic (first half inauspicious)"
+            },
+            "Shiva": {
+              "Interpretation": "Auspicious, learned, respected, calm, wealthy, benefits from king.",
+              "Nature": "Benefic"
+            },
+            "Siddha": {
+              "Interpretation": "Accomplished, skillful, spiritual, good natured, follows rules.",
+              "Nature": "Benefic"
+            },
+            "Sadhya": {
+              "Interpretation": "Accomplished, skillful, well-behaved, determined.",
+              "Nature": "Benefic"
+            },
+            "Shubha": {
+              "Interpretation": "Auspicious, lustrous, wealthy, beautiful, sensual, hot-tempered.",
+              "Nature": "Benefic"
+            },
+            "Shukla": {
+              "Interpretation": "Bright, eloquent, variable fortune, learned, fickle.",
+              "Nature": "Benefic"
+            },
+            "Brahma": {
+              "Interpretation": "Learned, respected, knowledgeable in Vedas, virtuous, charitable.",
+              "Nature": "Benefic"
+            },
+            "Indra": {
+              "Interpretation": "Chief, leader, wealthy, courageous, helpful, intelligent.",
+              "Nature": "Benefic"
+            },
+            "Vaidhriti": {
+              "Interpretation": "Deceptive, critical, powerful, overwhelming, quarrelsome (highly inauspicious for any work).",
+              "Nature": "Highly Malefic"
+            }
+          }
+        },
+        "karana": {
+          "description": "Half Lunar Day (11 types, 7 repeating - Chara, 4 fixed - Sthira). Influences actions, work ethic, immediate environment, and specific activities.",
+          "lookup": {
+            "Bava": {
+              "Interpretation": "Childlike, stable, noble deeds, strong, respected.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Indra"
+            },
+            "Balava": {
+              "Interpretation": "Respectable, performs pious deeds, religious, strong.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Brahma"
+            },
+            "Kaulava": {
+              "Interpretation": "Belonging to family/clan, social, friendly, loving.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Mitra"
+            },
+            "Taitila": {
+              "Interpretation": "Auspicious, builds houses, loving, sensual.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Aryaman"
+            },
+            "Garaja": {
+              "Interpretation": "Hardworking, builds houses, cultivates land, strong-willed.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Bhumi (Earth)"
+            },
+            "Vanija": {
+              "Interpretation": "Merchantile, clever in trade, business-oriented.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Lakshmi"
+            },
+            "Vishti (Bhadra)": {
+              "Interpretation": "Inauspicious for good deeds, destructive, fierce, causes obstacles.",
+              "Nature": "Chara (Repeating)",
+              "Ruler": "Yama"
+            },
+            "Shakuni": {
+              "Interpretation": "Skilled in omens/prophecy, cunning, deals with birds, causes loss.",
+              "Nature": "Sthira (Fixed)",
+              "Ruler": "Kali"
+            },
+            "Chatushpada": {
+              "Interpretation": "Deals with animals (quadrupeds), service-oriented, Brahminical.",
+              "Nature": "Sthira (Fixed)",
+              "Ruler": "Rudra"
+            },
+            "Naga": {
+              "Interpretation": "Associated with serpents, cruelty, skill, immovable things.",
+              "Nature": "Sthira (Fixed)",
+              "Ruler": "Nagas"
+            },
+            "Kintughna": {
+              "Interpretation": "Auspicious for beginnings, gains, actions.",
+              "Nature": "Sthira (Fixed)",
+              "Ruler": "Vayu"
+            }
+          }
+        },
+        "paksha": {
+          "description": "Lunar Phase (Waxing/Shukla or Waning/Krishna). Influences mental disposition, energy flow, and benefic/malefic nature of the Moon.",
+          "lookup": {
+            "Shukla": "Expansive, growing, externalizing energy, optimistic, Moon gains strength (generally benefic, esp. near Purnima). Good for growth, beginnings, auspicious acts.",
+            "Krishna": "Contracting, internalizing, diminishing energy, introspective, Moon loses strength (generally malefic, esp. near Amavasya). Good for ending things, introspection, less auspicious acts."
+          }
+        },
+        "gana": {
+          "description": "Temperament category based on Moon's Nakshatra (Deva/Divine, Manushya/Human, Rakshasa/Demonic). Influences core nature, compatibility, and worldview.",
+          "lookup": {
+            "Deva": "Charitable, intelligent, simple habits, good-natured, sattvic, generally patient and forgiving, controls senses, handsome.",
+            "Manushya": "Prosperous, respectable, worldly, balanced (rajasic/sattvic), concerned with social norms, proud, may be fearful.",
+            "Rakshasa": "Dominating, potentially destructive or harsh, strong-willed, unconventional (tamasic/rajasic), intuitive, perceptive, can be stubborn, speaks untruth."
+          }
+        },
+        "nadi": {
+          "description": "Constitutional type based on Moon's Nakshatra (Adi/Vata, Madhya/Pitta, Antya/Kapha). Relates to health, pulse, Ayurvedic constitution, and marital compatibility (avoiding same Nadi).",
+          "lookup": {
+            "Adya (Vata)": "Windy humor, quick, restless, variable energy, thin body, potential for nervous/joint issues, anxiety. (Nakshatras: Ashwini, Ardra, Punarvasu, Uttara Phalguni, Hasta, Jyeshta, Mula, Shatabhisha, Purva Bhadrapada)",
+            "Madhya (Pitta)": "Bilious humor, fiery, intense, sharp intellect, medium body, potential for heat/inflammation/digestive issues, anger. (Nakshatras: Bharani, Mrigashirsha, Pushya, Purva Phalguni, Chitra, Anuradha, Purva Ashadha, Dhanishta, Uttara Bhadrapada)",
+            "Antya (Kapha)": "Phlegmatic humor, calm, stable, strong/heavy build, potential for congestion/mucus/weight issues, lethargy. (Nakshatras: Krittika, Rohini, Ashlesha, Magha, Swati, Vishakha, Uttara Ashadha, Shravana, Revati)"
+          }
+        },
+        "yoni": {
+          "description": "Animal symbol based on Moon's Nakshatra. Relates to sexual nature, compatibility (based on friendly/enemy animals), primal instincts, and basic behavioral traits.",
+          "lookup": {
+            "Ashwa (Horse - Ashwini, Shatabhisha)": "Independent, energetic, passionate, free-spirited, proud.",
+            "Gaja (Elephant - Bharani, Revati)": "Strong, protective, enjoys luxury, dignified, powerful.",
+            "Mesha (Ram - Krittika, Pushya)": "Fiery, aggressive, pioneering, courageous, passionate.",
+            "Sarpa (Serpent - Rohini, Mrigashirsha)": "Cunning, intense, secretive, mystical, embracing.",
+            "Shwana (Dog - Ardra, Mula)": "Loyal, watchful, service-oriented, aggressive.",
+            "Marjara (Cat - Punarvasu, Ashlesha)": "Comfort-loving, sensual, independent, clean, adaptable.",
+            "Mushaka (Rat - Magha, Purva Phalguni)": "Accumulating, clever, nervous, resourceful, prolific.",
+            "Go (Cow - Uttara Phalguni, Uttara Bhadrapada)": "Nurturing, gentle, passive, enduring, patient.",
+            "Mahisha (Buffalo - Hasta, Swati)": "Strong, steady, slow, powerful, patient.",
+            "Vyaghra (Tiger - Chitra, Vishakha)": "Fierce, independent, powerful, solitary, aggressive.",
+            "Mriga (Deer - Anuradha, Jyeshta)": "Gentle, timid, searching, graceful, quick, fearful.",
+            "Vanara (Monkey - Purva Ashadha, Shravana)": "Active, playful, curious, restless, imitative, mischievous.",
+            "Nakula (Mongoose - Uttara Ashadha)": "Quick, alert, adversarial (to serpents), resourceful, independent.",
+            "Simha (Lion - Dhanishta, Purva Bhadrapada)": "Regal, authoritative, courageous, proud, dominant."
+          },
+          "compatibility": "Animals have natural enmity (e.g., Horse-Buffalo, Elephant-Lion, Ram-Monkey, Serpent-Mongoose, Dog-Deer, Cat-Rat, Cow-Tiger). Marriage between individuals with enemy Yonis is considered highly inauspicious."
+        },
+        "varna": {
+          "description": "Social inclination/aptitude based on Moon's Rasi (Sign). Relates to innate skills, duties, psychological orientation, and approach to work/society. (Note: This is distinct from the caste system).",
+          "lookup": {
+            "Brahmin (Cancer, Scorpio, Pisces)": "Knowledge, teaching, spirituality, wisdom, priesthood, advisory roles, intellectual pursuits.",
+            "Kshatriya (Aries, Leo, Sagittarius)": "Leadership, protection, administration, courage, governance, military, valor.",
+            "Vaishya (Taurus, Virgo, Capricorn)": "Trade, commerce, wealth management, agriculture, business, entrepreneurship, practical skills.",
+            "Shudra (Gemini, Libra, Aquarius)": "Service, labor, practical skills, craftsmanship, support roles, arts, communication."
+          }
+        },
+        "akshar": {
+          "description": "Birth Syllable based on Moon's Nakshatra Pada. Used for traditional naming (Naamakaran) and understanding subtle sound vibrations associated with the birth moment. Each Pada (3°20') within a Nakshatra has a specific starting syllable.",
+          "lookup": "Specific syllable (e.g., 'Chu', 'Che', 'Cho', 'La' for Ashwini 1-4; 'Li', 'Lu', 'Le', 'Lo' for Bharani 1-4, etc.) derived from the Nakshatra and Pada. Standard tables are available."
+        }
+      },
+      "houses_interpretation": {
+        "description": "Interpretation of the 12 Houses (Bhavas) of the horoscope. Each house represents specific areas of life. The sign on the cusp, the planets occupying the house, the house lord (Bhavesha), its placement and strength, and the natural significator (Karaka) for the house's main themes are analyzed.",
+        "general_principles": [
+          "House Strength: Determined by the sign on the cusp, planets occupying/aspecting it, strength/placement of its lord.",
+          "Benefic Influence (Jupiter, Venus, well-associated Mercury, waxing Moon) strengthens the house and promotes its positive significations.",
+          "Malefic Influence (Saturn, Mars, Sun, Rahu, Ketu, weak Moon, ill-associated Mercury) weakens the house and brings challenges related to its significations.",
+          "House Lord (Bhavesha): Its dignity (exaltation, own sign, etc.), placement in houses (Kendras, Trikonas are good; Dusthanas 6, 8, 12 are bad), associations, and aspects significantly impact the house.",
+          "Karaka (Significator): The natural significator's strength and placement also affect the house matters (e.g., Sun for 1st/9th/10th, Moon for 4th, Mars for 3rd/6th, etc.). Karaka in the house it signifies ('Karako Bhava Nashaya') can sometimes spoil that signification, especially if weak or afflicted, though exceptions exist (e.g., Jupiter in 2nd/5th/9th/11th, Saturn in 8th).",
+          "Houses are also judged from Chandra Lagna (Moon sign) and Surya Lagna (Sun sign) for a complete picture.",
+          "Arudha Padas of houses reveal the maya/perception related to that house."
+        ],
+        "bhava": {
+          "1": {
+            "Name": "Tanu Bhava (Body)",
+            "Significations": "Self, personality, physical body, appearance, constitution, health, vitality, beginning of life, character, status, fame, head.",
+            "Karaka": "Sun",
+            "Interpretation": "Strong Lagna/Lagna Lord indicates good health, strong personality, success. Afflictions indicate health issues, weak character, struggles. Planets in Lagna strongly color the personality (e.g., Mars makes assertive, Saturn makes serious)."
+          },
+          "2": {
+            "Name": "Dhana Bhava (Wealth)",
+            "Significations": "Wealth, accumulated assets, family (kutumba), speech, face, right eye, food, learning (early), documents, truthfulness, source/manner of death (maraka).",
+            "Karaka": "Jupiter (Wealth, Family), Mercury (Speech)",
+            "Interpretation": "Strong 2nd house/lord indicates wealth, good family life, eloquent speech, good eyesight. Afflictions indicate financial struggles, family discord, speech defects, eye issues, difficulty with food."
+          },
+          "3": {
+            "Name": "Sahaja/Bhratru Bhava (Siblings/Courage)",
+            "Significations": "Younger siblings, courage, enterprise, initiative, short journeys, communication (writing, arts), hands, arms, shoulders, hearing (right ear), servants, neighbors, valor, firmness.",
+            "Karaka": "Mars (Courage, Younger Siblings), Mercury (Communication)",
+            "Interpretation": "Strong 3rd house/lord indicates courage, good relations with siblings, success in communication/arts, helpful servants. Afflictions indicate cowardice, conflicts with siblings, communication issues, hearing problems."
+          },
+          "4": {
+            "Name": "Sukha/Matru Bhava (Happiness/Mother)",
+            "Significations": "Mother, happiness, home, domestic environment, property (land, buildings), vehicles, formal education, emotions, chest, heart, lungs, end of life.",
+            "Karaka": "Moon (Mother, Mind), Venus (Vehicles, Comforts), Mars (Property), Mercury (Education)",
+            "Interpretation": "Strong 4th house/lord indicates happiness, good relationship with mother, ownership of property/vehicles, good education, emotional stability. Afflictions indicate domestic unhappiness, issues with mother, loss of property, educational breaks, heart/lung issues."
+          },
+          "5": {
+            "Name": "Putra Bhava (Children/Intellect)",
+            "Significations": "Children, intelligence (buddhi), creativity, speculation, investments, romance, past life merit (purva punya), spiritual practices (mantra), advisors, fame, stomach, upper abdomen.",
+            "Karaka": "Jupiter (Children, Wisdom), Mercury (Intelligence)",
+            "Interpretation": "Strong 5th house/lord indicates intelligence, creativity, good children, success in speculation, fame, spiritual inclinations. Afflictions indicate problems with children, poor judgment, losses in speculation, scandals."
+          },
+          "6": {
+            "Name": "Ari/Ripu/Roga Bhava (Enemies/Disease/Debt)",
+            "Significations": "Enemies, diseases, debts, obstacles, service, work routines, maternal uncle, pets, servants, litigation, theft, disappointments, injuries, intestines, navel region.",
+            "Karaka": "Mars (Enemies, Debts, Injuries), Saturn (Disease, Service, Obstacles)",
+            "Interpretation": "Strong 6th house/lord (in certain contexts, e.g., Upachaya) can indicate overcoming enemies/diseases, success in service/competitions. Generally, afflictions indicate health problems, debts, powerful enemies, obstacles in work."
+          },
+          "7": {
+            "Name": "Kalatra/Jaya Bhava (Spouse/Partnership)",
+            "Significations": "Spouse, marriage, partnerships (business), relationships, desires (kama), trade, foreign lands/travel, diplomacy, sexual organs, lower abdomen, kidneys.",
+            "Karaka": "Venus (Marriage, Relationships), Jupiter (Husband for female)",
+            "Interpretation": "Strong 7th house/lord indicates happy marriage, successful partnerships, good relationships, fulfillment of desires, success abroad. Afflictions indicate marital discord, divorce, partnership failures, sexual issues, problems abroad."
+          },
+          "8": {
+            "Name": "Ayur/Randhra Bhava (Longevity/Obstacles)",
+            "Significations": "Longevity, death (manner of), obstacles, chronic illness, inheritance, unearned wealth (lottery, insurance), occult, secrets, disgrace, transformation, vulnerability, external sexual organs, anus.",
+            "Karaka": "Saturn (Longevity, Chronic illness, Obstacles)",
+            "Interpretation": "Strong 8th house/lord (in certain contexts) can indicate long life, inheritance, occult abilities. Generally, afflictions indicate short life, chronic diseases, accidents, disgrace, financial losses, obstacles."
+          },
+          "9": {
+            "Name": "Dharma/Bhagya Bhava (Righteousness/Fortune)",
+            "Significations": "Father, guru (teacher), righteousness (dharma), fortune, luck, higher education, philosophy, religion, long journeys, foreign travel, grandchildren, divine grace, hips, thighs.",
+            "Karaka": "Jupiter (Dharma, Guru, Fortune), Sun (Father)",
+            "Interpretation": "Strong 9th house/lord indicates fortune, good relationship with father/guru, higher wisdom, religious inclination, success in long journeys, divine grace. Afflictions indicate misfortune, conflicts with father/guru, lack of faith, obstacles in higher education/travel."
+          },
+          "10": {
+            "Name": "Karma Bhava (Action/Profession)",
+            "Significations": "Profession, career, status, reputation, ambition, government, authority, public life, actions (karma), honor, father (also), knees, back.",
+            "Karaka": "Sun (Authority, Status), Mercury (Profession), Jupiter (Profession), Saturn (Profession)",
+            "Interpretation": "Strong 10th house/lord indicates successful career, high status, fame, good reputation, favors from government, purposeful action. Afflictions indicate professional struggles, unemployment, loss of status, bad reputation, conflicts with authority."
+          },
+          "11": {
+            "Name": "Labha Bhava (Gains)",
+            "Significations": "Gains, income, profits, fulfillment of desires, elder siblings, friends, social circle, networks, hopes and wishes, ankles, calves, left ear.",
+            "Karaka": "Jupiter (Gains, Elder Siblings, Friends)",
+            "Interpretation": "Strong 11th house/lord indicates good income, fulfillment of desires, helpful elder siblings/friends, strong social network. Afflictions indicate financial losses, frustrated desires, conflicts with siblings/friends."
+          },
+          "12": {
+            "Name": "Vyaya/Moksha Bhava (Loss/Liberation)",
+            "Significations": "Losses, expenditure, detachment, liberation (moksha), spirituality, isolation, confinement (hospitals, prisons), foreign residence, secret enemies, sleep, bed pleasures, feet, left eye.",
+            "Karaka": "Saturn (Loss, Confinement), Ketu (Moksha, Spirituality), Jupiter (Spirituality)",
+            "Interpretation": "Strong 12th house/lord (in spiritual contexts) indicates spiritual progress, detachment, liberation. Generally, afflictions indicate heavy expenditure, losses, confinement, secret enemies, sleep disorders, issues with feet/eyes, separation from homeland."
+          }
+        }
+      },
+      "yogas_detailed": {
+        "description": "Important Planetary Combinations (Yogas) and their effects. Yogas significantly modify the interpretation of individual planets and houses.",
+        "categories": [
+          "Pancha Mahapurusha Yogas (Five Great Person Yogas)",
+          "Chandra Yogas (Lunar Yogas)",
+          "Surya Yogas (Solar Yogas)",
+          "Raja Yogas (Royal Combinations)",
+          "Dhana Yogas (Wealth Combinations)",
+          "Daridra Yogas (Poverty Combinations)",
+          "Nabhasa Yogas (Celestial Yogas - based on patterns)",
+          "Arishta Yogas (Misfortune/Health Combinations)",
+          "Pravrajya Yogas (Renunciation Combinations)",
+          "Other Specific Yogas"
+        ],
+        "pancha_mahapurusha": {
+          "description": "Formed when Mars, Mercury, Jupiter, Venus, or Saturn are strong (in own sign or exaltation) and placed in a Kendra (1, 4, 7, 10) from Lagna or Moon.",
+          "Ruchaka": {
+            "Planet": "Mars",
+            "Formation": "Mars in own sign (Aries, Scorpio) or exaltation (Capricorn) in a Kendra.",
+            "Results": "Courageous, strong physique, famous, victorious over enemies, potential leader, possibly aggressive or rash."
+          },
+          "Bhadra": {
+            "Planet": "Mercury",
+            "Formation": "Mercury in own sign (Gemini, Virgo) or exaltation (Virgo) in a Kendra.",
+            "Results": "Intelligent, learned, skillful, good speaker/writer, long-lived, wealthy, helps relatives, praised by learned."
+          },
+          "Hamsa": {
+            "Planet": "Jupiter",
+            "Formation": "Jupiter in own sign (Sagittarius, Pisces) or exaltation (Cancer) in a Kendra.",
+            "Results": "Righteous, respected, learned, virtuous, happy, handsome, kingly, fond of good food, long-lived (potentially 80+)."
+          },
+          "Malavya": {
+            "Planet": "Venus",
+            "Formation": "Venus in own sign (Taurus, Libra) or exaltation (Pisces) in a Kendra.",
+            "Results": "Prosperous, owns vehicles, enjoys pleasures, famous, learned, good spouse/family life, strong senses, potentially renowned."
+          },
+          "Sasa": {
+            "Planet": "Saturn",
+            "Formation": "Saturn in own sign (Capricorn, Aquarius) or exaltation (Libra) in a Kendra.",
+            "Results": "Commands servants, leader (village/town/king), enjoys others' wealth, potentially questionable morals, serves others, influential."
+          }
+        },
+        "chandra_yogas": {
+          "description": "Yogas formed based on the Moon's position relative to other planets.",
+          "Sunapha": "Planet (except Sun, Rahu, Ketu) in 2nd from Moon. Results: Self-earned wealth, intelligent, famous, kingly.",
+          "Anapha": "Planet (except Sun, Rahu, Ketu) in 12th from Moon. Results: Well-formed organs, magnanimous, eloquent, enjoys pleasures, famous, good conduct.",
+          "Durudhura": "Planets (except Sun, Rahu, Ketu) in both 2nd and 12th from Moon. Results: Enjoys comforts, liberal, wealthy, owns vehicles, good servants.",
+          "Kemadruma": "No planets (except Sun, Rahu, Ketu) in 2nd or 12th from Moon (or Kendras from Moon/Lagna). Results: Sorrowful, dirty, poor, dependent, wicked. (Cancellation is common and important).",
+          "Gajakesari": "Jupiter in Kendra (1, 4, 7, 10) from Moon. Results: Illustrious, intelligent, virtuous, overcomes enemies, gains fame, long-lived.",
+          "Chandramangala": "Moon and Mars conjunct or in mutual aspect. Results: Wealthy (potentially through questionable means related to women), deals in drinks/earthenware, treats mother harshly.",
+          "Adhi Yoga (Chandra)": "Benefics (Mercury, Jupiter, Venus) in 6th, 7th, 8th from Moon (unafflicted). Results: Commander/Minister/King, polite, trustworthy, wealthy, healthy, happy, long-lived, overcomes enemies."
+        },
+        "surya_yogas": {
+          "description": "Yogas formed based on the Sun's position relative to other planets.",
+          "Vesi": "Planet (except Moon, Rahu, Ketu) in 2nd from Sun. Results: Truthful, lazy, happy, kind, virtuous, balanced outlook.",
+          "Vosi": "Planet (except Moon, Rahu, Ketu) in 12th from Sun. Results: Skillful, charitable, famous, eloquent, good memory.",
+          "Ubhayachari": "Planets (except Moon, Rahu, Ketu) in both 2nd and 12th from Sun. Results: Eloquent, strong physique, learned, kingly, enjoys pleasures, wealthy."
+        },
+        "raja_yogas": {
+          "description": "Combinations indicating power, status, authority, and success.",
+          "Dharma-Karmadhipati": "Association (conjunction, mutual aspect, exchange) between lords of 9th (Dharma) and 10th (Karma). Highly auspicious for status and success.",
+          "Kendra-Trikona Sambandha": "Association between lord of a Kendra (1, 4, 7, 10) and lord of a Trikona (1, 5, 9). Forms Raja Yoga.",
+          "Vipareeta Raja Yoga": "Lords of Dusthanas (6, 8, 12) associating with each other or placed in other Dusthanas, while weak or afflicted. Brings sudden rise after struggle/loss.",
+          "Neecha Bhanga Raja Yoga": "Cancellation of debilitation (Neecha) of a planet. Occurs if: (a) Lord of debilitation sign is in Kendra from Lagna/Moon. (b) Planet which gets exalted in that sign is in Kendra from Lagna/Moon. (c) Debilitated planet is aspected by its sign lord. (d) Debilitated planet exchanges signs with its sign lord. (e) Debilitated planet is conjunct/aspected by planet exalted in that sign. (f) Debilitated planet is exalted in Navamsa. Results: Overcomes initial struggles to achieve high status.",
+          "Specific Combinations": "Numerous other combinations exist, e.g., planets in exaltation in Kendras, strong Lagna lord, etc."
+        },
+        "dhana_yogas": {
+          "description": "Combinations indicating wealth and financial prosperity.",
+          "Formation": "Generally involve lords of Dhana houses (2nd, 11th), Labha houses (11th), and Lakshmi sthanas (1st, 5th, 9th) in favorable positions (Kendras, Trikonas) or associations.",
+          "Examples": "Lord of 2nd in 11th and 11th lord in 2nd (exchange). Lords of 2nd, 9th, 11th associated with Lagna lord. Jupiter (Dhana Karaka) strong and well-placed, associated with Dhana lords."
+        },
+        "nabhasa_yogas": {
+          "description": "32 Yogas based on the patterns formed by all 7 planets (Sun to Saturn) in the chart. Classified into Ashraya, Dala, Akriti, and Sankhya Yogas.",
+          "Examples": "Gola (all planets in one sign), Yuga (all planets in two signs), Shula (all planets in three signs), Kedara (all planets in four signs), Pasa (all planets in five signs), Damini (all planets in six signs), Veena (all planets in seven signs - auspicious), Rajju (planets only in movable signs - negative), Musala (planets only in fixed signs), Nala (planets only in dual signs), Mala (benefics in 3 Kendras), Sarpa (malefics in 3 Kendras), Gada, Sakata, Vihaga, Sringataka, Hala, Vajra, Yava, Kamala, Vapi, Yupa, Sara, Shakti, Danda, Nauka, Koota, Chatra, Chapa, Chakra, Samudra.",
+          "Interpretation": "Provide an overall background influence on the native's life. Some are very significant (e.g., Veena, Kamala, Vapi)."
+        },
+        "arishta_yogas": {
+          "description": "Combinations indicating misfortune, ill-health, or early death (Balarishta).",
+          "Balarishta": "Early death (infancy/childhood). Formed by severe afflictions to Lagna, Moon, Sun, and their lords, especially by malefics in Kendras/Dusthanas without benefic aspect.",
+          "Other Arishta": "Afflictions to specific houses/planets indicating specific misfortunes (e.g., afflictions to 6th/8th lords/houses for disease/accidents)."
+        },
+        "pravrajya_yogas": {
+          "description": "Combinations indicating renunciation, asceticism, or a spiritual path.",
+          "Formation": "Usually involve Saturn (detachment), Ketu (moksha), Jupiter (spirituality), and the 12th house (liberation).",
+          "Examples": "Four or more strong planets in one Kendra. Saturn aspecting a weak Lagna lord. Moon in Saturn/Mars Navamsa aspected by Saturn. Strong Jupiter in 9th/12th. Strong 12th lord aspected by benefics."
+        }
+      },
+      "vargas_interpretation": {
+        "description": "Interpretation and usage of Divisional Charts (Vargas) beyond Rasi (D1) and Navamsa (D9). Each Varga provides deeper insight into a specific area of life.",
+        "general_principles": [
+          "Planet's strength in Vargas (Vimsopaka Bala) indicates its ability to deliver results.",
+          "Placement in own/exaltation/friendly Vargas enhances positive significations.",
+          "Placement in debilitation/enemy Vargas indicates challenges.",
+          "Vargottama (same sign in D1 and the Varga) strengthens the planet's Rasi results.",
+          "Analyze the specific house relevant to the Varga (e.g., 10th house in D10 for career).",
+          "Analyze the Lagna of the Varga chart and its lord."
+        ],
+        "varga_details": {
+          "D2_Hora": {
+            "Focus": "Wealth, Finances, Sustenance, Speech, Family.",
+            "Calculation": "Odd signs: 1st half (0-15°) Sun's Hora, 2nd half (15-30°) Moon's Hora. Even signs: Reverse.",
+            "Usage": "Planets in Sun's Hora (Leo) may indicate wealth through authority/effort; in Moon's Hora (Cancer) through nurturing/public/fluctuations. Strength of 2nd lord in Hora chart."
+          },
+          "D3_Drekkana": {
+            "Focus": "Siblings (Younger), Courage, Initiative, Drive, Arms, Short Journeys, Talent/Skills.",
+            "Calculation": "1st (0-10°), 5th (10-20°), 9th (20-30°) signs from the Rasi.",
+            "Usage": "Analyze 3rd house/lord and Mars in D3 for siblings/courage. Planets in D3 indicate nature of siblings/drive. Specific Drekkana types (Ayudha, Pasa, etc.) have meanings."
+          },
+          "D4_Chaturthamsa": {
+            "Focus": "Property, Home, Happiness, Fortune (Bhagya), Primary Education, Mother.",
+            "Calculation": "Lords are rulers of 1st, 4th, 7th, 10th signs from the Rasi.",
+            "Usage": "Analyze 4th house/lord, Moon, Mars in D4 for property/home/mother. Indicates overall fortune and domestic happiness."
+          },
+          "D7_Saptamsa": {
+            "Focus": "Children, Grandchildren, Progeny prospects, Creativity.",
+            "Calculation": "Odd signs: Count 7 signs starting from the Rasi. Even signs: Count 7 signs starting from the 7th sign.",
+            "Usage": "Analyze 5th house/lord and Jupiter in D7 for children. Timing/nature of children, creative potential."
+          },
+          "D10_Dasamsa": {
+            "Focus": "Career, Profession, Status, Achievements, Actions in society, Fame.",
+            "Calculation": "Odd signs: Count 10 signs starting from the Rasi. Even signs: Count 10 signs starting from the 9th sign.",
+            "Usage": "Analyze 10th house/lord, Sun, Mercury, Jupiter, Saturn in D10 for career. Nature of work, success, status, ambitions."
+          },
+          "D12_Dwadasamsa": {
+            "Focus": "Parents, Ancestors, Past life influences, Inheritance (from parents).",
+            "Calculation": "Count 12 signs starting from the Rasi.",
+            "Usage": "Analyze 4th/9th houses/lords, Sun, Moon in D12 for parents/lineage. Indicates parental influences and past karma."
+          },
+          "D16_Shodasamsa": {
+            "Focus": "Vehicles, Comforts, Luxuries, General Happiness/Unhappiness (mental plane).",
+            "Calculation": "Movable signs: Count starts from Aries. Fixed signs: Starts from Leo. Dual signs: Starts from Sagittarius.",
+            "Usage": "Analyze 4th house/lord and Venus in D16 for vehicles/comforts. Indicates mental ease/discomfort related to possessions."
+          },
+          "D20_Vimsamsa": {
+            "Focus": "Spiritual Pursuits, Religious inclination, Worship, Occult knowledge.",
+            "Calculation": "Movable signs: Starts from Aries. Fixed signs: Starts from Sagittarius. Dual signs: Starts from Leo.",
+            "Usage": "Analyze 5th/9th/12th houses/lords, Jupiter, Ketu in D20 for spiritual path. Indicates devotion, religious beliefs, occult practices."
+          },
+          "D24_Chaturvimsamsa": {
+            "Focus": "Learning, Education (higher/specialized), Knowledge, Skills (Siddhi).",
+            "Calculation": "Odd signs: Starts from Leo. Even signs: Starts from Cancer.",
+            "Usage": "Analyze 4th/5th/9th houses/lords, Mercury, Jupiter in D24 for education/skills. Indicates academic achievements, learning capacity."
+          },
+          "D27_Nakshatramsa/Bhamsa": {
+            "Focus": "Inherent Strengths and Weaknesses, Overall vitality.",
+            "Calculation": "Distribution starts from Aries/Cancer/Libra/Capricorn based on element of the Rasi.",
+            "Usage": "Assess overall strength/weakness based on planetary placements. Strong planets indicate inherent talents; weak planets indicate vulnerabilities."
+          },
+          "D30_Trimsamsa": {
+            "Focus": "Misfortunes, Evils, Character (especially female), Health vulnerabilities, Mode of death.",
+            "Calculation": "Unequal divisions ruled by Mars, Saturn, Jupiter, Mercury, Venus.",
+            "Usage": "Indicates inherent weaknesses, moral character (esp. female), potential health issues, and nature of suffering."
+          },
+          "D40_Khavedamsa": {
+            "Focus": "Maternal Legacy, Auspicious/Inauspicious effects inherited from mother's side.",
+            "Calculation": "Odd signs: Starts from Aries. Even signs: Starts from Libra.",
+            "Usage": "Analyze Moon/4th lord in D40. Indicates blessings/curses from maternal lineage."
+          },
+          "D45_Akshavedamsa": {
+            "Focus": "Paternal Legacy, Auspicious/Inauspicious effects inherited from father's side.",
+            "Calculation": "Movable signs: Starts from Aries. Fixed signs: Starts from Leo. Dual signs: Starts from Sagittarius.",
+            "Usage": "Analyze Sun/9th lord in D45. Indicates blessings/curses from paternal lineage."
+          },
+          "D60_Shastiamsa": {
+            "Focus": "Past Karma, Overall judgment of all matters, Fine-tuning predictions. Considered highly important.",
+            "Calculation": "Complex calculation involving specific deities ruling each 1/60th part (0°30').",
+            "Usage": "Planet in benefic Shastiamsa enhances good results; in malefic Shastiamsa indicates karmic challenges. Crucial for detailed analysis."
+          }
+        }
+      },
+      "ashtakavarga": {
+        "description": "A system quantifying the strength of planets and signs based on their positions relative to each other and the Lagna. Used for assessing transit results, longevity, and overall strength.",
+        "calculation": {
+          "Binnashtakavarga (BAV)": "Each planet (Sun to Saturn) and Lagna casts auspicious points (Rekhas/Bindus depending on tradition) in the 12 signs based on the positions of the 8 factors (7 planets + Lagna) relative to itself. Standard tables define these auspicious positions.",
+          "Sarvashtakavarga (SAV)": "Sum of the points (Rekhas/Bindus) contributed by all 8 factors in each sign. Total points across all 12 signs is always 337.",
+          "Shodhana (Reductions)": "Trikona Shodhana (Triangular reduction) and Ekadhipatya Shodhana (Reduction for single lordship) are applied to refine the BAV scores.",
+          "Pinda Sadhana": "Calculation of Rasi Pinda and Graha Pinda (weighted scores) based on the reduced BAV scores and planetary/sign multipliers, used for longevity calculations (Pindayu)."
+        },
+        "interpretation": {
+          "SAV Scores": "Signs with high SAV scores (above 30) are strong and indicate prosperity when transited by planets or activated by Dasha. Signs with low scores (below 25) are weak and indicate challenges.",
+          "BAV Scores": "Planets transiting signs where they have high BAV scores give favorable results related to that planet's significations. Low BAV scores indicate unfavorable transit results.",
+          "Transit Analysis": "Transits of Saturn, Jupiter, Rahu/Ketu are particularly analyzed using Ashtakavarga. Transit through signs with low SAV/BAV scores, especially concerning natal Moon/Lagna/Sun, brings difficulties.",
+          "Longevity (Pindayu)": "A method of longevity calculation based on reduced Ashtakavarga scores and planetary contributions.",
+          "House Strength": "SAV scores in houses indicate the strength of that house to manifest its results."
+        }
+      },
+      "gochar": {
+        "description": "Transit of planets (Gochar) through the zodiac signs relative to the natal chart positions (especially Lagna, Moon, Sun). Triggers events promised by Dasha periods and natal chart potential.",
+        "key_transits": {
+          "Saturn": "Slow moving (approx 2.5 years/sign). Major impact. Transits over natal Moon (Sade Sati - 7.5 yrs), 4th/8th from Moon (Kantaka/Ashtama Shani), and key natal planets/houses bring significant challenges, responsibilities, endings, and karmic lessons.",
+          "Jupiter": "Moves approx 1 year/sign. Generally benefic. Transits over natal Moon, Lagna, key planets/houses bring opportunities, expansion, wisdom, fortune, auspicious events (marriage, birth).",
+          "Rahu/Ketu": "Nodes move retrograde (approx 1.5 years/sign). Bring sudden, karmic, obsessive, or detached experiences based on house/sign transited and natal placements.",
+          "Mars": "Approx 1.5-2 months/sign. Triggers action, energy, conflict, accidents based on house/sign.",
+          "Sun": "Approx 1 month/sign. Highlights house matters, brings focus, vitality, ego issues.",
+          "Venus": "Approx 1 month/sign. Influences relationships, comforts, finances, arts.",
+          "Mercury": "Approx 3-4 weeks/sign (variable due to retro). Affects communication, intellect, commerce, travel."
+        },
+        "analysis_principles": [
+          "Judge transits primarily from Natal Moon (Chandra Lagna), then Natal Lagna.",
+          "Planet's strength in transit (exaltation, own sign, Ashtakavarga score) modifies results.",
+          "Aspects between transiting planets and natal planets are crucial.",
+          "Transits activate houses and planets, triggering Dasha results.",
+          "Ashtakavarga scores heavily influence transit results (high scores = good, low scores = bad).",
+          "Vedha (obstruction) from other transiting planets can block transit results."
+        ]
+      },
+      "muhurta": {
+        "description": "Electional Astrology - Selecting auspicious times (Muhurta) for starting important activities (marriage, journeys, construction, education, etc.) to ensure success and minimize obstacles.",
+        "key_factors": [
+          "Panchanga Elements: Favorable Tithi (avoid Rikta 4, 9, 14), Vara (avoid Tuesday/Saturday for most auspicious acts), Nakshatra (choose based on nature of activity and compatibility with natal Moon Nakshatra), Yoga (avoid malefic Yogas like Vyatipata, Vaidhriti), Karana (avoid Vishti/Bhadra).",
+          "Lagna (Ascendant): Should be strong, occupied/aspected by benefics, lord well-placed. Avoid Lagna/Navamsa Lagna owned by malefics for most events. Specific Lagnas favored for specific activities.",
+          "Chandra Bala (Moon Strength): Moon should be waxing (Shukla Paksha), well-placed (not 6/8/12 from Muhurta Lagna), strong by sign/aspects, and not afflicted.",
+          "Tara Bala (Nakshatra Strength): Muhurta Nakshatra should be favorable (not 3rd, 5th, 7th - Vipat, Pratyak, Vadha) counted from natal Nakshatra.",
+          "Planetary Positions: Benefics in Kendras/Trikonas, Malefics in Upachaya houses (3, 6, 10, 11) relative to Muhurta Lagna. Avoid malefics in Lagna/8th/7th. Jupiter in Kendra/Trikona is highly desirable.",
+          "Specific Yogas: Presence of auspicious yogas (e.g., Amrita Siddhi Yoga, Sarvartha Siddhi Yoga) enhances the Muhurta. Avoid Durmuhurtas and inauspicious yogas.",
+          "Vargas: Strength of planets in relevant divisional charts (e.g., Navamsa for marriage).",
+          "Tara Shuddhi, Panchaka Shuddhi, etc.:Additional checks for purity and absence of flaws.",
+          "Activity-Specific Rules: Detailed rules exist for specific activities (e.g., Griha Pravesh, Vivaha, Upanayana)."
+        ],
+        "subha_lagna": "Refers to selecting an auspicious Ascendant sign and time for an event, ensuring its strength and freedom from affliction, with benefic placements relative to it."
+      },
+      "remedial_measures": {
+        "description": "Traditional Vedic methods to mitigate negative planetary influences or strengthen weak points in the horoscope.",
+        "categories": [
+          "Mantras: Chanting specific sounds/verses associated with planets or deities (e.g., Navagraha Mantras, Beeja Mantras, deity-specific mantras like Gayatri, Mahamrityunjaya).",
+          "Yantras: Geometric diagrams representing planetary/deity energies, used for worship or wearing.",
+          "Gemstones (Ratna): Wearing specific gems corresponding to planets to strengthen their positive influence (requires careful selection based on functional beneficence). E.g., Ruby (Sun), Pearl (Moon), Red Coral (Mars), Emerald (Mercury), Yellow Sapphire (Jupiter), Diamond (Venus), Blue Sapphire (Saturn), Hessonite (Rahu), Cat's Eye (Ketu).",
+          "Puja/Worship: Performing rituals and worship dedicated to specific planets (Navagraha Puja) or deities associated with them.",
+          "Charity (Dana): Donating specific items associated with planets on their corresponding weekdays (e.g., wheat/copper for Sun, rice/silver for Moon, red lentils/copper for Mars, green clothes/mung for Mercury, chickpeas/gold for Jupiter, white clothes/sugar/rice for Venus, black clothes/sesame oil/iron for Saturn).",
+          "Fasting (Vrata): Observing fasts on specific weekdays related to planets.",
+          "Herbs/Roots (Jadi): Wearing specific roots tied in a cloth.",
+          "Service/Seva: Performing selfless service related to the planet's significations (e.g., serving elders for Saturn, teachers for Jupiter).",
+          "Behavioral Changes: Cultivating qualities opposite to the negative planetary influence (e.g., discipline for afflicted Saturn, controlling anger for afflicted Mars)."
+        ],
+        "caution": "Remedies, especially gemstones, should be recommended only after careful analysis by a qualified astrologer, as strengthening a functional malefic can be harmful."
+      },
+      "female_horoscopy": {
+        "description": "Specific considerations for interpreting horoscopes of women, focusing on marriage, husband, children, character, and well-being.",
+        "key_points": [
+          "Lagna & Moon: Indicate physique, health, and overall disposition.",
+          "7th House/Lord: Nature, character, status, and longevity of the husband.",
+          "8th House (Mangalya Sthana): Longevity of husband, marital happiness.",
+          "Venus (Kalatra Karaka): General indicator for marriage, relationships, beauty.",
+          "Jupiter (Pati Karaka): Specific indicator for husband.",
+          "Mars: Energy, temperament, potential for Kuja Dosha (affects marital harmony).",
+          "5th House/Lord: Children, ability to conceive.",
+          "Trimsamsa (D30): Crucial for assessing character, chastity, and potential misfortunes.",
+          "Specific Yogas: Combinations indicating widowhood (Vaidhavya Yoga), lack of children (Vandhya Yoga), virtuous character, etc."
+        ]
+      },
+      "planets_interpretation_template": {
+        "description": "Template for interpreting individual planet positions. Requires synthesizing significations of the planet, its sign placement, dignity, house placement (relative to Lagna), Nakshatra, Pada, and Navamsa position, aspects received/given, and Avasthas.",
+        "planet": {
+          "description": "General significations (Karakatwas) of the planet.",
+          "lookup": {
+            "Sun": "Soul (Atma), ego, vitality, authority, father, government, health (heart, bones, eyes), nobility, leadership, physicians.",
+            "Moon": "Mind (Manas), emotions, mother, public, nourishment, fluids, popularity, changeability, imagination, home, chest, left eye.",
+            "Mars": "Energy, action, courage, siblings (younger), property, logic, ambition, conflict, accidents, surgery, blood, muscles.",
+            "Mercury": "Intellect (Buddhi), communication, speech, learning, commerce, skills, analysis, adaptability, friends, skin, nervous system.",
+            "Jupiter": "Wisdom (Jnana), knowledge, expansion, fortune, children, husband (female chart), teachers, religion, law, wealth, liver, fat.",
+            "Venus": "Love, beauty, relationships, marriage, spouse, comforts, luxury, arts, vehicles, pleasure, semen, kidneys, reproductive system.",
+            "Saturn": "Structure, discipline, limitation, duty, responsibility, service, endurance, sorrow, delay, old age, chronic illness, bones, teeth, karma.",
+            "Rahu": "Obsession, ambition, foreign influences, illusion, unconventionality, technology, sudden events, poison, amplification, desires, grandfather.",
+            "Ketu": "Detachment, spirituality, liberation (Moksha), intuition, past karma, loss, isolation, secret knowledge, scandals, accidents, grandmother."
+          }
+        },
+        "sign_placement": {
+          "description": "How the planet expresses itself based on the sign's characteristics (element, modality, ruler).",
+          "lookup": "Refer to 'lagna.sign.lookup' for sign qualities."
+        },
+        "dignity": {
+          "description": "Planet's strength based on sign placement (Exaltation, Moolatrikona, Own Sign, Friendly Sign, Neutral Sign, Enemy Sign, Debilitation).",
+          "interpretation": "Strong dignity enhances positive results; weak dignity causes struggles."
+        },
+        "house_placement": {
+          "description": "Area of life where the planet's energy primarily manifests.",
+          "interpretation": "Planet influences the significations of the house it occupies and lords over. Placement in Kendras/Trikonas generally good; in Dusthanas (6, 8, 12) generally challenging."
+        },
+        "nakshatra_placement": {
+          "description": "Specific motivations, core energies, and subtle influences modifying the planet's expression.",
+          "lookup": "Refer to 'lagna.nakshatra.lookup'."
+        },
+        "pada_placement": {
+          "description": "Link to Navamsa sign and life aims (Dharma, Artha, Kama, Moksha).",
+          "lookup": "Refer to 'lagna.pada.lookup'."
+        },
+        "navamsa_placement": {
+          "description": "Inner quality and strength of the planet, crucial for assessing its true potential and long-term results.",
+          "interpretation": "Vargottama (same sign in Rasi & Navamsa) strengthens. Exaltation/Own Sign in Navamsa boosts Rasi results. Debilitation in Navamsa weakens."
+        },
+        "aspects": {
+          "description": "Influences received from and given to other planets/houses.",
+          "interpretation": "Benefic aspects enhance; malefic aspects hinder. Planets cast full aspect on 7th house. Mars also aspects 4th/8th. Jupiter also aspects 5th/9th. Saturn also aspects 3rd/10th."
+        },
+        "avasthas": {
+          "description": "States or conditions of planets (e.g., Bala, Kumara, Yuva, Vriddha, Mrita based on degree; Jagrat, Swapna, Sushupti based on dignity; Lajjita, Garvita, Kshudhita, Trushita, Mudita, Kshobhita based on associations) indicating their capacity to deliver results.",
+          "interpretation": "Refine the interpretation based on the specific state, indicating alertness, potential, satisfaction, or distress."
+        }
+      }
+    },
+    "interpretation_examples",
+    ":",
+    [
+      {
+        "example_number": 1,
+        "description": "Illustrative interpretation for Sample API Response 1 (Gemini Lagna). Demonstrates combining detailed lookup data.",
+        "reference_data": {
+          "lagna": {
+            "sign": "Gemini",
+            "nakshatra": "Mrigashirsha",
+            "pada": 3
+          },
+          "navamsa_lagna": {
+            "sign": "Libra"
+          },
+          "panchanga": {
+            "tithi": "Shashthi",
+            "paksha": "Shukla",
+            "yoga": "Vriddhi",
+            "karana": "Kaulava",
+            "gana": "Deva",
+            "nadi": "Madhya (Pitta)",
+            "yoni": "Ram",
+            "varna": "Brahmin",
+            "akshar": "Ho"
+          },
+          "planets": [
+            {
+              "planet": "Sun",
+              "sign": "Taurus",
+              "nakshatra": "Krittika",
+              "pada": 4,
+              "navamsa_sign": "Pisces"
+            },
+            {
+              "planet": "Moon",
+              "sign": "Cancer",
+              "nakshatra": "Pushya",
+              "pada": 3,
+              "navamsa_sign": "Libra"
+            },
+            {
+              "planet": "Mars",
+              "sign": "Aries",
+              "nakshatra": "Bharani",
+              "pada": 3,
+              "navamsa_sign": "Libra"
+            },
+            {
+              "planet": "Mercury",
+              "sign": "Aries",
+              "nakshatra": "Bharani",
+              "pada": 4,
+              "navamsa_sign": "Scorpio"
+            },
+            {
+              "planet": "Jupiter",
+              "sign": "Sagittarius",
+              "nakshatra": "Purva Ashadha",
+              "pada": 3,
+              "navamsa_sign": "Libra"
+            },
+            {
+              "planet": "Venus",
+              "sign": "Gemini",
+              "nakshatra": "Mrigashirsha",
+              "pada": 4,
+              "navamsa_sign": "Scorpio"
+            },
+            {
+              "planet": "Saturn",
+              "sign": "Pisces",
+              "nakshatra": "Uttara Bhadrapada",
+              "pada": 3,
+              "navamsa_sign": "Libra"
+            },
+            {
+              "planet": "Rahu",
+              "sign": "Virgo",
+              "nakshatra": "Hasta",
+              "pada": 4,
+              "navamsa_sign": "Cancer"
+            },
+            {
+              "planet": "Ketu",
+              "sign": "Pisces",
+              "nakshatra": "Revati",
+              "pada": 2,
+              "navamsa_sign": "Capricorn"
+            }
+          ],
+          "dashas_start": {
+            "mahadasha_lord": "Saturn",
+            "start": "1996-05-23..."
+          }
+        },
+        "interpretation_narrative": {
+          "title": "Sample Interpretation: Gemini Lagna Example (Detailed Synthesis)",
+          "disclaimer": "Illustrative only, based on limited data. Requires full chart analysis including house placements and aspects.",
+          "lagna_panchanga": "The Ascendant rising in **Gemini**, an adaptable and intellectual Air sign, bestows a communicative, curious, and versatile personality, potentially restless (Dual sign). This is further refined by **Mrigashirsha Nakshatra** (ruled by energetic Mars, deity Soma), adding sensitivity, a searching quality ('seeking deer'), and gentleness, though reinforcing restlessness. **Pada 3** (Kama Pada) directs this searching energy towards desires, relationships, and intellectual creativity, linking to Air sign Navamsas. The **Libra Navamsa Lagna** confirms a strong inner orientation towards harmony, partnership, and idealism, suggesting the native's core purpose (dharma) and later life fortune are tied to balanced relationships and social grace.\n\nPanchanga details add nuance: **Shukla Paksha** birth indicates growing energy and optimism. **Shashthi Tithi** (ruled by Kartikeya) suggests innate skill and capacity for effort, but also potential for conflict. **Vriddhi Yoga** promises growth and intelligence. **Kaulava Karana** points to social skills. **Deva Gana** indicates a generally sattvic, intelligent, and good-natured temperament. **Mesha Yoni** suggests fiery, pioneering instincts. **Madhya Nadi** indicates a Pitta constitution, requiring attention to balance heat/inflammation. **Brahmin Varna** (from Moon in Cancer) suggests an aptitude for knowledge.",
+          "planetary_highlights": [
+            "**Lagna Lord Mercury** in Aries (neutral sign) / Bharani (Venus-ruled, transformative): Communication is direct, perhaps impulsive (Aries), but carries intensity and potential for transformation (Bharani). Scorpio Navamsa adds depth and investigative quality to intellect.",
+            "**Moon** strong in Own Sign Cancer / Pushya (Saturn-ruled, nourishing): Deep emotional sensitivity and intuition (Cancer), grounded by the wisdom, patience, and auspiciousness of Pushya. Libra Navamsa emphasizes emotional balance and harmony in relationships.",
+            "**Mars** very strong in Own Sign/Moolatrikona Aries / Bharani (Venus-ruled, transformative): Powerful drive, courage, and initiative (Aries), channeled through intense, potentially extreme transformative experiences (Bharani). Libra Navamsa seeks to balance this raw energy, possibly through partnerships.",
+            "**Jupiter** very strong in Own Sign/Moolatrikona Sagittarius / Purva Ashadha (Venus-ruled, victorious): Powerful wisdom, optimism, adherence to principles (Sagittarius), combined with ambition and popularity (Purva Ashadha). Libra Navamsa suggests wisdom applied towards achieving harmony and fulfilling desires.",
+            "**Saturn** in neutral Pisces / Uttara Bhadrapada (Saturn-ruled, wise): Discipline expressed with compassion (Pisces) and stability/wisdom (Uttara Bhadrapada). Gains exceptional strength from **exaltation in Libra Navamsa**, indicating long-term success through justice, structure, and balanced responsibility.",
+            "**Venus** in friend's sign Gemini / Mrigashirsha (Mars-ruled, searching): Relationships and artistic expression tied to communication and intellect (Gemini), with added sensitivity and searching quality (Mrigashirsha). Scorpio Navamsa adds intensity and passion to love.",
+            "**Rahu** in Virgo / Hasta (Moon-ruled, skillful): Ambition expressed through analytical, practical, service-oriented means (Virgo), utilizing skill and cleverness (Hasta). Cancer Navamsa suggests underlying emotional motivations.",
+            "**Ketu** in Pisces / Revati (Mercury-ruled, nourishing): Detachment and spirituality expressed intuitively (Pisces) and with a guiding/protective quality (Revati). Capricorn Navamsa adds a practical structure to spiritual pursuits."
+          ],
+          "dasha_context": "Starting **Saturn Mahadasha** (approx. 1996-2005). Themes: Responsibility, discipline, potential delays, structure building, service, karmic lessons. Saturn's natal strength (exalted Navamsa) promises positive long-term results despite initial challenges. **Saturn-Sun AD** (approx. 1996-97): Sun in friend's sign Taurus, but natural enemy to Saturn. Potential for conflict with authority, challenges related to status/father, but opportunity to establish practical authority. **Saturn-Moon AD** (approx. 1997-98): Moon strong in own sign Cancer, but enemy to Saturn. Emotional challenges or restrictions possible, focus on home/mother under disciplined conditions, but emotional resilience likely.",
+          "future_potential": "Current **Ketu Mahadasha** (approx. 2022-2029) emphasizes detachment, spirituality, intuition, potentially sudden events or focus on roots/endings (Ketu in Pisces/Revati). **Ketu-Rahu AD** (approx. 2025-2026) can be volatile, mixing ambition and detachment. Next **Venus Mahadasha** (approx. 2029-2049) likely brings strong focus on relationships, communication, arts, and comforts (Venus in Lagna sign Gemini).",
+          "remedies": "General: Worship Lord Vishnu (for Gemini/Jupiter influences). Specific: Propitiate Saturn (Shiva/Hanuman worship, service, discipline) especially during its Dasha. Propitiate Ketu (Ganesha worship, meditation, detachment practices) during its Dasha. Balance Pitta constitution (Madhya Nadi) via cooling foods/practices. Strengthen Lagna lord Mercury (Vishnu Sahasranama)."
+        }
+      },
+      {
+        "example_number": 2,
+        "description": "Illustrative interpretation for Sample API Response 2 (Leo Lagna with multiple debilitations).",
+        "reference_data": {
+          "lagna": {
+            "sign": "Leo",
+            "nakshatra": "Magha",
+            "pada": 1
+          },
+          "navamsa_lagna": {
+            "sign": "Aries"
+          },
+          "panchanga": {
+            "tithi": "Dwitiya",
+            "paksha": "Krishna",
+            "yoga": "Saubhagya",
+            "karana": "Taitila",
+            "gana": "Rakshasa",
+            "nadi": "Antya (Kapha)",
+            "yoni": "Mushaka (Rat)",
+            "varna": "Kshatriya",
+            "akshar": "Ma"
+          },
+          "planets": [
+            {
+              "planet": "Sun",
+              "sign": "Libra",
+              "nakshatra": "Chitra",
+              "pada": 3,
+              "navamsa_sign": "Gemini"
+            },
+            {
+              "planet": "Moon",
+              "sign": "Scorpio",
+              "nakshatra": "Jyeshtha",
+              "pada": 4,
+              "navamsa_sign": "Pisces"
+            },
+            {
+              "planet": "Mars",
+              "sign": "Cancer",
+              "nakshatra": "Ashlesha",
+              "pada": 2,
+              "navamsa_sign": "Virgo"
+            },
+            {
+              "planet": "Mercury",
+              "sign": "Virgo",
+              "nakshatra": "Hasta",
+              "pada": 1,
+              "navamsa_sign": "Aries"
+            },
+            {
+              "planet": "Jupiter",
+              "sign": "Capricorn",
+              "nakshatra": "Uttara Ashadha",
+              "pada": 2,
+              "navamsa_sign": "Taurus"
+            },
+            {
+              "planet": "Venus",
+              "sign": "Virgo",
+              "nakshatra": "Chitra",
+              "pada": 1,
+              "navamsa_sign": "Aries"
+            },
+            {
+              "planet": "Saturn",
+              "sign": "Taurus",
+              "nakshatra": "Rohini",
+              "pada": 3,
+              "navamsa_sign": "Libra"
+            },
+            {
+              "planet": "Rahu",
+              "sign": "Gemini",
+              "nakshatra": "Ardra",
+              "pada": 4,
+              "navamsa_sign": "Pisces"
+            },
+            {
+              "planet": "Ketu",
+              "sign": "Sagittarius",
+              "nakshatra": "Mula",
+              "pada": 2,
+              "navamsa_sign": "Virgo"
+            }
+          ],
+          "dashas_start": {
+            "mahadasha_lord": "Moon",
+            "start": "Hypothetical Start Date..."
+          }
+        },
+        "interpretation_narrative": {
+          "title": "Sample Interpretation: Leo Lagna Example (Detailed Synthesis)",
+          "disclaimer": "Illustrative only, based on limited data. Requires full chart analysis including house placements and aspects.",
+          "lagna_panchanga": "The Ascendant rising in **Leo**, a Fixed Fire sign, indicates a core personality seeking authority, recognition, and expressing nobility and ambition. **Magha Nakshatra** (ruled by Ketu) reinforces this regal quality, connecting the native to lineage and tradition, but potentially bringing arrogance. **Pada 1** (Dharma Pada) emphasizes a focus on purpose and principles. The **Aries Navamsa Lagna** further strengthens the fiery, independent, and pioneering inner nature (dharma).\n\nBorn during **Krishna Paksha** (waning moon), suggesting a more introspective energy. **Dwitiya Tithi** focuses on foundations and partnerships. **Saubhagya Yoga** promises good fortune, though it needs support from the chart. **Rakshasa Gana** indicates a strong-willed, potentially dominating or unconventional temperament. **Antya Nadi** (Kapha) suggests a stable constitution, possibly prone to sluggishness. **Mushaka Yoni** (Rat) indicates resourcefulness and accumulation tendencies. **Kshatriya Varna** (from Moon in Scorpio) suggests an aptitude for leadership or protection, despite the Moon's debilitation.",
+          "planetary_highlights": [
+            "**Lagna Lord Sun** is **Debilitated** in Libra/Chitra: Significant challenge to vitality, confidence, leadership expression, and relationship with father/authority. Success may require compromise and diplomacy (Libra), utilizing creativity (Chitra). Gemini Navamsa helps through intellect.",
+            "**Moon** is **Debilitated** in Scorpio/Jyeshtha: Intense, potentially turbulent emotional nature, secretive mind (Scorpio). Struggles with inner peace. Jyeshtha adds themes of responsibility and potential jealousy. Pisces Navamsa offers compassion and intuition as outlets.",
+            "**Mars** is **Debilitated** in Cancer/Ashlesha: Energy is expressed emotionally, perhaps passively or protectively towards home (Cancer). Ashlesha adds psychological depth and potential manipulation. Action is indirect. Virgo Navamsa adds analytical ability.",
+            "**Mercury** is **Exalted** in Own Sign/Moolatrikona Virgo/Hasta: Extremely strong intellect, communication, analytical ability, and practical skills (Virgo/Hasta). A major strength, providing sharp intelligence and dexterity. Aries Navamsa adds initiative.",
+            "**Jupiter** is **Debilitated** in Capricorn/Uttara Ashadha: Wisdom and expansion are challenged, potentially manifesting through hard work, structure, or unconventional means (Capricorn). Uttara Ashadha provides endurance. Taurus Navamsa aids practicality.",
+            "**Venus** is **Debilitated** in Virgo/Chitra: Challenges in relationships, finding pleasure, expressing love conventionally. May be critical in love or find joy in service/analysis (Virgo). Chitra adds artistic flair. Aries Navamsa adds passion.",
+            "**Saturn** in friend's sign Taurus/Rohini: Discipline focused on material stability and sensual comforts (Taurus/Rohini). Gains great strength from **exaltation in Libra Navamsa**, indicating long-term success through balanced, just, and structured efforts.",
+            "**Rahu** in Gemini/Ardra: Ambition focused on communication, intellect, technology (Gemini), potentially causing sudden upheavals or intense transformations (Ardra). **Ketu** in Sagittarius/Mula: Detachment related to beliefs, higher learning, potential for breaking traditions (Sagittarius/Mula)."
+          ],
+          "dasha_context": "Hypothetically starting with **Moon Mahadasha**. Activates themes of emotions, mother, home. However, Moon is **debilitated**, suggesting potential emotional turmoil, difficulties related to mother/home, psychological challenges, but also deep transformations during this 10-year period. **Moon-Mars AD**: Mars is also **debilitated**. This sub-period could be challenging, involving emotional conflicts, issues with property or siblings, suppressed anger, or health issues, requiring careful energy management.",
+          "future_potential": "The chart features multiple debilitated planets (Sun, Moon, Mars, Jupiter, Venus), indicating significant life challenges but also potential for unconventional success through overcoming adversity (Neecha Bhanga Raja Yoga possibilities need checking with house placements/aspects). The exalted Mercury is a key strength, providing intelligence and skill. Saturn's Navamsa exaltation promises eventual stability and success through discipline. Rahu MD could bring significant ambition in communication fields. Venus MD might be challenging due to debilitation.",
+          "remedies": "Significant focus needed on strengthening debilitated planets: **Sun** (Aditya Hrudayam, respect father/authority), **Moon** (Shiva/Parvati worship, emotional regulation practices, charity), **Mars** (Hanuman Chalisa, Kartikeya worship, anger management), **Jupiter** (Respect teachers, Vishnu Sahasranama, charity), **Venus** (Lakshmi worship, appreciating simple beauty, respecting partner). Strengthening **Mercury** (Vishnu/Ganesha worship) leverages the chart's strength. Managing **Rakshasa Gana** requires conscious effort towards compassion and controlling dominance. Balancing **Kapha** (Antya Nadi) via stimulating activities/diet."
+        }
+      }
+    ]
+  ]

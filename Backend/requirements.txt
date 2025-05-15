@@ -1,0 +1,12 @@
+pytz
+swisseph
+fastapi
+uvicorn
+matplotlib
+langchain
+chromadb
+tiktoken
+pyswisseph 
+gradio 
+nepali-datetime 
+# bikram-sambat
